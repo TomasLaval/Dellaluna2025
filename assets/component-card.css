@@ -671,3 +671,7 @@
     transition: transform var(--duration-default) ease, opacity var(--duration-default) ease;
   }
 }
+
+.card--product .media {
+  background-color: #f2f2f4;
+}

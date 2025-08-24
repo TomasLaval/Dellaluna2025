@@ -96,10 +96,13 @@
 }
 
 /* Overwrite styles */
+.popular-products .card-information {
+  padding-inline: 20px;
+}
+
 .popular-products .card-information--overlay {
   position: absolute;
   bottom: 0;
-  padding-inline: 20px;
   width: 100%;
   opacity: 0;
   transition: 200ms ease-in-out;
@@ -118,9 +121,10 @@
 }
 
 .card-wrapper .product-pagination {
-  bottom: auto;
+  bottom: auto !important;
   top: 2rem;
 }
+
 .card-wrapper {
   background: #f2f2f4;
 }

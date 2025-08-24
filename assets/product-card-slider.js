@@ -5,7 +5,7 @@
 		sliders.forEach((slider, index) => {
 			const productSlider = new Swiper(slider, {
 				pagination: {
-					el: ".product-pagination .swiper-pagination",
+					el: slider.querySelector(".product-pagination .swiper-pagination"),
 					clickable: true,
 				},
 				navigation: {
@@ -15,6 +15,16 @@
 				allowTouchMove: true,
 				990: {
 					allowTouchMove: false,
+				},
+				on: {
+					slideChange: function () {
+						console.log("Slide index changed to:", this.activeIndex);
+
+						if (this.pagination && this.pagination.render && this.pagination.update) {
+							this.pagination.render();
+							this.pagination.update();
+						}
+					},
 				},
 			});
 		});
