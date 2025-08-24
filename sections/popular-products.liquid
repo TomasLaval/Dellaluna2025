@@ -44,7 +44,8 @@
               show_collection: section.settings.show_collection,
               show_desc: section.settings.show_desc,
               section_id: section.id,
-              add_id: forloop.index
+              add_id: forloop.index,
+              overlay_info: section.settings.overlay_info
             %}
           </li>
         {%- else -%}
@@ -163,6 +164,12 @@
         }
       ],
       "default": "cover"
+    },
+    {
+      "type": "checkbox",
+      "id": "overlay_info",
+      "default": false,
+      "label": "Overlay info"
     },
     {
       "type": "checkbox",

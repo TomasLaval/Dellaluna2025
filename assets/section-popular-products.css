@@ -94,3 +94,33 @@
 .popular-products .card-wrapper .media > image {
   border-radius: var(--border-radius-media);
 }
+
+/* Overwrite styles */
+.popular-products .card-information--overlay {
+  position: absolute;
+  bottom: 0;
+  padding-inline: 20px;
+  width: 100%;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+}
+
+.card-wrapper:hover .card-information--overlay {
+  opacity: 1;
+}
+
+.popular-products__container {
+  padding: 0;
+}
+
+.popular-products__wrapper {
+  gap: 0;
+}
+
+.card-wrapper .product-pagination {
+  bottom: auto;
+  top: 2rem;
+}
+.card-wrapper {
+  background: #f2f2f4;
+}

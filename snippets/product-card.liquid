@@ -71,7 +71,7 @@
 						style="padding-bottom: 65%;"
 					{%- endif -%}
 					{%- if media_size == 'portrait' -%}
-						style="padding-bottom: 130%;"
+						style="padding-bottom: 133.33%;"
 					{%- endif -%}
 					{%- if media_size == 'square' -%}
 						style="padding-bottom: 100%;"
@@ -309,7 +309,7 @@
 		</div>
 	</div>
 
-	<div class="card-information">
+	<div class="card-information{% if overlay_info %} card-information--overlay{% endif %}">
 		<div class="card-information__wrapper">
 			<div class="card-information__group">
 				{%- if show_vendor or show_collection -%}
