@@ -1,0 +1,828 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "media-banner-1": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/IMG_4254_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "Beyond Basics",
+            "heading_size": "h1",
+            "description": "Timeless essentials with modern details—versatile, stylish, and effortlessly wearable.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover Collection",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        },
+        "media_slide1": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Silvia_Della_Luna_2025-46_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "Thoughtful Design",
+            "heading_size": "h1",
+            "description": "Well-made, comfortable, and stylish—clothing designed with attention to every detail.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover Collection",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide",
+        "media_slide1"
+      ],
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_KMFhre": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_RcXE6M": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/IMG_4245_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "A love letter to Venice",
+            "heading_size": "h1",
+            "description": "Refinement and glamour unite in a vibrant collection.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "DISCOVER NOW",
+            "button_link": "/",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_RcXE6M"
+      ],
+      "name": "t:sections.media-banner.name",
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-effect",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "popular-products": {
+      "type": "popular-products",
+      "custom_css": [
+        ".popular-products__wrapper {gap: 0;}",
+        ".popular-products__container {padding: 0;}",
+        ".card-information {position: absolute; bottom: 0; padding-inline: 20px; width: 100%; opacity: 0; transition: 200ms ease-in-out;}",
+        ".card-wrapper:hover .card-information {opacity: 1;}",
+        ".card-wrapper .product-pagination {bottom: auto; top: 2rem;}",
+        ".card-wrapper {background: #f2f2f4;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "heading_size": "h1",
+        "product_list": [
+          "copy-of-affresco-baby-brown",
+          "affresco-grande-white",
+          "affresco-grande-black-1",
+          "affresco-grande-brown"
+        ],
+        "products_to_show": 4,
+        "image_ratio": "portrait",
+        "image_fit": "contain",
+        "show_vendor": false,
+        "show_color_count": true,
+        "show_size_count": false,
+        "show_collection": false,
+        "show_desc": false,
+        "columns_mobile": "2",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_Wj63b9": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_tLmenm": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/image-4.png",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": true,
+            "video": "shopify://files/videos/making off short version.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "Featured Content",
+            "heading_size": "h1",
+            "description": "Use this space to give context to the image or video, explaining what it represents and why it matters.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_tLmenm"
+      ],
+      "name": "t:sections.media-banner.name",
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-effect",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_7Tg6fj": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_W4QgiR": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/IMG_5463.jpg",
+            "overlay_opacity": 0.2,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "Featured Content",
+            "heading_size": "h1",
+            "description": "Use this space to give context to the image or video, explaining what it represents and why it matters.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_W4QgiR"
+      ],
+      "name": "t:sections.media-banner.name",
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-effect",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "product-slider": {
+      "type": "product-slider",
+      "blocks": {
+        "product_slide": {
+          "type": "product_slide",
+          "settings": {
+            "product": "affresco-grande-white",
+            "image": "shopify://shop_images/Silvia_della_Luna-08785_2.jpg",
+            "color_scheme": "",
+            "overlay_opacity": 0.1,
+            "description": "Soft fabrics, flattering silhouettes, and timeless style."
+          }
+        },
+        "product_slide1": {
+          "type": "product_slide",
+          "settings": {
+            "product": "",
+            "color_scheme": "",
+            "overlay_opacity": 0.1,
+            "description": "Modern, versatile, and designed to make an impact without the effort."
+          }
+        },
+        "product_slide2": {
+          "type": "product_slide",
+          "settings": {
+            "product": "",
+            "color_scheme": "",
+            "overlay_opacity": 0.1,
+            "description": "Comfortable, chic, stylish, and always in season."
+          }
+        }
+      },
+      "block_order": [
+        "product_slide",
+        "product_slide1",
+        "product_slide2"
+      ],
+      "settings": {
+        "image_size": "large",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h1",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "is_autoplay": false,
+        "is_hover_stop_autoplay": true,
+        "navigation_position": "cursor",
+        "slideshow_speed": 1.1,
+        "slideshow_delay": 3,
+        "slide_effects": "slide",
+        "is_sync_slide": true,
+        "enable_animation": true,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_vendor": false,
+        "show_color_count": true,
+        "show_size_count": false,
+        "show_collection": false,
+        "show_desc": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media-banner-2": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/shopify_senza_titolo-280_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "The Go-To Collection",
+            "heading_size": "h1",
+            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover Collection",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide"
+      ],
+      "settings": {
+        "header_overlay": false,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_UptrDR": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_xm6Pzd": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DellaLunaST01_058b2.jpg",
+            "mobile_image": "shopify://shop_images/DellaLunaST01_058b2.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "Beyond Basics",
+            "heading_size": "h1",
+            "description": "Timeless essentials with modern details—versatile, stylish, and effortlessly wearable.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover Collection",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_xm6Pzd"
+      ],
+      "settings": {
+        "header_overlay": false,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "popular-products1": {
+      "type": "popular-products",
+      "custom_css": [
+        ".popular-products__wrapper {gap: 0;}",
+        ".popular-products__container {padding: 0;}",
+        ".card-information {position: absolute; bottom: 0; padding-inline: 20px; width: 100%; opacity: 0; transition: 200ms ease-in-out;}",
+        ".card-wrapper:hover .card-information {opacity: 1;}",
+        ".card-wrapper .product-pagination {bottom: auto; top: 2rem;}",
+        ".card-wrapper {background: #f2f2f4;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "heading_size": "h1",
+        "product_list": [
+          "affresco-baby-black",
+          "affresco-baby-blue",
+          "affresco-baby-brown",
+          "affresco-baby-burgundy"
+        ],
+        "products_to_show": 4,
+        "image_ratio": "portrait",
+        "image_fit": "contain",
+        "show_vendor": false,
+        "show_color_count": true,
+        "show_size_count": false,
+        "show_collection": false,
+        "show_desc": false,
+        "columns_mobile": "2",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_Y7dewk": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_kRigTD": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Screenshot_2025-05-04_at_22.09.22.png",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "The Go-To Collection",
+            "heading_size": "h1",
+            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover Collection",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_kRigTD"
+      ],
+      "settings": {
+        "header_overlay": false,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_WY3Rqi": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_tkpLhQ": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Screenshot_2025-05-04_at_22.13.14.png",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "The Go-To Collection",
+            "heading_size": "h1",
+            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover Collection",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_tkpLhQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "header_overlay": false,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_kV9Qwp": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_r6Leqr": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/shopify_DallaLuna_est01_0038edit_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "The Go-To Collection",
+            "heading_size": "h1",
+            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover Collection",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_r6Leqr"
+      ],
+      "settings": {
+        "header_overlay": false,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "banner-with-popup": {
+      "type": "banner-with-popup",
+      "blocks": {
+        "image2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shopifyDallaLuna_Est01__0071_copy.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image2"
+      ],
+      "settings": {
+        "aspect_ratio": "full",
+        "full_screen_image_mode": false,
+        "heading": "New Season, New Styles",
+        "heading_size": "h1",
+        "description": "<p>Puede contener múltiples imágenes que van rotando a la izquierda. Este texto siempre será el mismo.</p>",
+        "button_label": "View More",
+        "button_link": "",
+        "button_style": "simple",
+        "button_function": "popup",
+        "enable_animation": true,
+        "slideshow_speed": 6,
+        "popup_heading": "The Avant-Garde Edit",
+        "popup_content_heading": "The Avant-Garde Edit",
+        "popup_content": "<p>Step into a realm of innovative style with our exclusive collection, where bold designs meet impeccable craftsmanship. This curated selection celebrates the art of fashion, merging daring silhouettes with exquisite fabrics to create looks that redefine modern elegance.</p><p>Each piece is crafted to make a statement, blending unique textures and unexpected cuts to elevate your wardrobe. Embrace the spirit of fearless fashion, designed to captivate and inspire confidence in every step you take.</p>",
+        "popup_image_size": "landscape",
+        "popup_button_label": "Shop Collection",
+        "popup_button_link": "",
+        "popup_button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "featured-products": {
+      "type": "featured-products",
+      "blocks": {
+        "product-slide1": {
+          "type": "product-slide",
+          "settings": {
+            "image": "shopify://shop_images/upSilvia_della_Luna-08920.jpg",
+            "heading": "Radiate confidence with timeless pieces",
+            "product": ""
+          }
+        },
+        "product-slide2": {
+          "type": "product-slide",
+          "settings": {
+            "image": "shopify://shop_images/Image3_a26de2eb-b3dd-49ad-8f9b-8d4f5a88c42e.jpg",
+            "heading": "Discover the allure of understated elegance",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product-slide1",
+        "product-slide2"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "big_image_ratio": "portrait",
+        "heading_size": "h3",
+        "columns": 3,
+        "slider": true,
+        "stop_autoplay": true,
+        "navigation": false,
+        "slideshow_speed": 20,
+        "hover_effect": true,
+        "animate_on_scroll": true,
+        "overlay_opacity": 0.1,
+        "image_ratio": "portrait",
+        "show_vendor": false,
+        "show_collection": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shopify1.jpg",
+            "overlay_opacity": 0,
+            "subheading": "",
+            "heading": "Worldwide Style",
+            "description": "<p>Embrace a collection that seamlessly blends elegance with modern sophistication, inspired by the world's most fashionable cities.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Inspired by the World",
+            "description": "<p>Our collections draw inspiration from global cultures, bringing unique and eclectic styles to your wardrobe.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Modern Nomad",
+            "description": "<p>Discover styles that travel effortlessly, combining comfort and versatility for every journey, from city streets to distant shores.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Timeless Essentials",
+            "description": "<p>Curated pieces designed to stand the test of time, bringing you classic looks with a contemporary twist.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_QMxx6L": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Worldwide Style",
+            "description": "<p>Embrace a collection that seamlessly blends elegance with modern sophistication, inspired by the world's most fashionable cities.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "column_Uwr8nC": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Urban Elegance",
+            "description": "<p>Dive into a collection that captures the dynamic spirit of the city, with bold designs and refined silhouettes.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column",
+        "column2",
+        "column3",
+        "column_QMxx6L",
+        "column_Uwr8nC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h1",
+        "description": "",
+        "enable_full_screen": true,
+        "swiper": true,
+        "stop_autoplay": true,
+        "navigation": true,
+        "slideshow_speed": 20,
+        "layout_type": "overlay",
+        "content_position": "img-top",
+        "on_hover": "show_text",
+        "multicolumn_to_show": 2,
+        "image_ratio": "square",
+        "object_fit": "cover",
+        "card_heading_size": "h1",
+        "button_label": "",
+        "button_style": "simple",
+        "button_link": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "categories_list_GLy99k": {
+      "type": "categories-list",
+      "blocks": {
+        "collection_item_JbEwmJ": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Screen_Shot_2022-03-21_at_3.13.41_PM.png",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_bhTdtw": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/VITTORIA_sand_SMAll_fff16db7-9cb9-49ba-955e-0164ac77b5ab.jpg",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_KyJkTG": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Vesper_sand_copy.jpg",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_JbEwmJ",
+        "collection_item_bhTdtw",
+        "collection_item_KyJkTG"
+      ],
+      "name": "t:sections.categories-list.presets.name",
+      "settings": {
+        "subheading": "",
+        "heading": "Collections title",
+        "heading_size": "h1",
+        "button_label": "Learn More",
+        "button_link": "",
+        "button_style": "simple",
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_desc": false,
+        "collection_heading_size": "h2",
+        "collections_to_show": 4,
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "media-banner-1",
+    "media_banner_KMFhre",
+    "popular-products",
+    "media_banner_Wj63b9",
+    "media_banner_7Tg6fj",
+    "product-slider",
+    "media-banner-2",
+    "media_banner_UptrDR",
+    "popular-products1",
+    "media_banner_Y7dewk",
+    "media_banner_WY3Rqi",
+    "media_banner_kV9Qwp",
+    "banner-with-popup",
+    "featured-products",
+    "multicolumn",
+    "categories_list_GLy99k"
+  ]
+}
