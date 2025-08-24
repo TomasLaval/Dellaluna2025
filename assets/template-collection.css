@@ -649,3 +649,16 @@
 .collection-hero__description.rte *:not(a) {
   color: inherit;
 }
+
+.products-grid.container {
+  padding-inline: 0;
+}
+
+.products-grid .collection-product-list {
+  padding: 2px;
+  gap: 2px !important;
+}
+
+.collection-product-list .collection-product-promo-img img {
+  height: 100%;
+}

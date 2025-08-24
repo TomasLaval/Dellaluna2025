@@ -675,3 +675,12 @@
 .card--product .media {
   background-color: #f2f2f4;
 }
+
+.card-wrapper .product-pagination {
+  bottom: auto !important;
+  top: 2rem;
+}
+
+.card-information {
+  padding-inline: 20px;
+}

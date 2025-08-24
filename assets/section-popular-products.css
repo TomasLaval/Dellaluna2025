@@ -96,10 +96,6 @@
 }
 
 /* Overwrite styles */
-.popular-products .card-information {
-  padding-inline: 20px;
-}
-
 .popular-products .card-information--overlay {
   position: absolute;
   bottom: 0;
@@ -118,13 +114,4 @@
 
 .popular-products__wrapper {
   gap: 0;
-}
-
-.card-wrapper .product-pagination {
-  bottom: auto !important;
-  top: 2rem;
-}
-
-.card-wrapper {
-  background: #f2f2f4;
 }
