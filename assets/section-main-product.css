@@ -632,7 +632,7 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
   }
 }
 .product__popup {
-  display: none;
+  display: block;
   position: fixed;
   width: 100%;
   background: rgb(var(--color-background));
@@ -645,11 +645,6 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
 .product__popup.active {
   transform: translateY(0);
   transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
-}
-@media (min-width: 990px) {
-  .product__popup {
-    display: block;
-  }
 }
 .product__popup.no_dynamic_checkout .product-form__checkout {
   display: none;
