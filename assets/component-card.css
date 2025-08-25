@@ -676,11 +676,13 @@
   background-color: #f2f2f4;
 }
 
-.card-wrapper .product-pagination {
-  bottom: auto !important;
-  top: 2rem;
+@media screen and (min-width: 990px) {
+  .card-wrapper .product-pagination {
+    bottom: auto !important;
+    top: 2rem;
+  }
 }
 
 .card-information {
-  padding-inline: 20px;
+  padding-inline: 20px !important;
 }
