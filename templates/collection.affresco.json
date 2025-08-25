@@ -69,7 +69,7 @@
         "show_desc": false,
         "columns_mobile": "2",
         "show_collection_description": true,
-        "description_products": "",
+        "description_products": "a",
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
