@@ -29,7 +29,7 @@
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "Shop now",
-            "button_link": "",
+            "button_link": "shopify://collections/handbags",
             "button_style": "tertiary",
             "button_label2": "",
             "button_link2": "",
