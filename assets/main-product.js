@@ -219,6 +219,12 @@ class FloatedForm extends HTMLElement {
 		const shareButtons = this.productElement.querySelector(".share-buttons");
 		if (shareButtons) shareButtons.remove();
 
+		const collapsibleTabs = this.productElement.querySelector(".collapsible-content__items");
+		if (collapsibleTabs) collapsibleTabs.remove();
+
+		const productParameters = this.productElement.querySelector(".product-parameters");
+		if (productParameters) productParameters.remove();
+
 		const productModal = this.productElement.querySelectorAll(".product-popup");
 		productModal.forEach((advantage) => {
 			advantage.remove();
