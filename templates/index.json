@@ -493,6 +493,49 @@
           "type": "media_slide",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/IMG_5816-2_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "For the love of Gold",
+            "heading_size": "h1",
+            "description": "Treasures made to be held, coated in 24k gold, created in limited numbers.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "discover",
+            "button_link": "",
+            "button_style": "primary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_kRigTD"
+      ],
+      "settings": {
+        "header_overlay": false,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_zBcVN7": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_xKX6Aj": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
             "image": "shopify://shop_images/Screenshot_2025-05-04_at_22.09.22.png",
             "mobile_image": "shopify://shop_images/Completed_of_final_printing_of_brand_bible_dellaluna_-2.png",
             "overlay_opacity": 0,
@@ -517,7 +560,7 @@
         }
       },
       "block_order": [
-        "media_slide_kRigTD"
+        "media_slide_xKX6Aj"
       ],
       "settings": {
         "header_overlay": false,
@@ -927,6 +970,7 @@
     "categories_list_GLy99k",
     "popular-products1",
     "media_banner_Y7dewk",
+    "media_banner_zBcVN7",
     "banner_with_popup_PQ8VcF",
     "featured-products",
     "media_banner_UptrDR",
