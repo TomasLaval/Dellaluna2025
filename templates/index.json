@@ -210,13 +210,13 @@
         "margin_bottom": "m"
       }
     },
-    "media_banner_KMFhre": {
+    "media_banner_U7ez39": {
       "type": "media-banner",
       "blocks": {
-        "media_slide_RcXE6M": {
+        "media_slide_9UKBDN": {
           "type": "media_slide",
           "settings": {
-            "color_scheme": "background-2",
+            "color_scheme": "",
             "image": "shopify://shop_images/IMG_4245_copy.jpg",
             "overlay_opacity": 0,
             "enable_hover": false,
@@ -226,10 +226,10 @@
             "subheading": "",
             "heading": "For the love of Cinema",
             "heading_size": "h1",
-            "description": "Refinement and glamour unite in a vibrant collection.",
+            "description": "Refinement and glamour unite in a vibrant collection",
             "position_content": "bottom",
             "align_content": "left",
-            "button_label": "Shop Now",
+            "button_label": "Shop now",
             "button_link": "shopify://collections/cinema",
             "button_style": "tertiary",
             "button_label2": "",
@@ -240,12 +240,11 @@
         }
       },
       "block_order": [
-        "media_slide_RcXE6M"
+        "media_slide_9UKBDN"
       ],
-      "name": "t:sections.media-banner.name",
       "settings": {
         "header_overlay": true,
-        "sticky": "sticky-effect",
+        "sticky": "sticky-none",
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
@@ -299,28 +298,27 @@
         "margin_bottom": "no-indent"
       }
     },
-    "media_banner_7Tg6fj": {
+    "media_banner_x6FF9Y": {
       "type": "media-banner",
       "blocks": {
-        "media_slide_W4QgiR": {
+        "media_slide_Q3Eqa6": {
           "type": "media_slide",
           "settings": {
-            "color_scheme": "background-2",
+            "color_scheme": "",
             "image": "shopify://shop_images/IMG_5542_copy.jpg",
-            "mobile_image": "shopify://shop_images/IMG_5542_copy.jpg",
             "overlay_opacity": 0,
-            "enable_hover": true,
+            "enable_hover": false,
             "show_video": false,
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
-            "heading": "Featured Content",
+            "heading": "From Venice with Amore",
             "heading_size": "h1",
-            "description": "Use this space to give context to the image or video, explaining what it represents and why it matters.",
+            "description": "",
             "position_content": "bottom",
             "align_content": "left",
-            "button_label": "Shop Now",
-            "button_link": "",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/handbags",
             "button_style": "tertiary",
             "button_label2": "",
             "button_link2": "",
@@ -330,12 +328,11 @@
         }
       },
       "block_order": [
-        "media_slide_W4QgiR"
+        "media_slide_Q3Eqa6"
       ],
-      "name": "t:sections.media-banner.name",
       "settings": {
         "header_overlay": true,
-        "sticky": "sticky-effect",
+        "sticky": "sticky-none",
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
@@ -897,9 +894,9 @@
     "media-banner-1",
     "popular-products",
     "categories_list_GLy99k",
-    "media_banner_KMFhre",
+    "media_banner_U7ez39",
     "media_banner_Wj63b9",
-    "media_banner_7Tg6fj",
+    "media_banner_x6FF9Y",
     "media_banner_xXwYtx",
     "media-banner-2",
     "popular-products1",
