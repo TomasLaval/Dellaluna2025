@@ -99,7 +99,7 @@
         "complementary_MDe68y"
       ],
       "settings": {
-        "gallery_type": "thumbs_aside",
+        "gallery_type": "custom",
         "desktop_alignment": "right",
         "mobile_alignment": "before",
         "slider_direction": "horizontal",
