@@ -39,6 +39,10 @@ const sliderInit = (isUpdate) => {
 						},
 						direction: directionDesc,
 					},
+					990: {
+						enabled: false, // disables swiper
+						slidesPerView: 'auto', // optional, avoids errors
+					}
 				},
 				navigation: {
 					nextEl: ".product .product__slider-nav .swiper-button-next",

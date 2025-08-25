@@ -25,6 +25,56 @@
 	endfor
 -%}
 
+{%- assign collapsible_tabs = false -%}
+{%- assign tabs_rendered = false -%}
+
+{%- for block in section.blocks -%}
+	{%- if block.type == "collapsible_tab" -%}
+		{%- assign collapsible_tabs = true -%}
+	{%- endif -%}
+{%- endfor -%}
+
+{%- if collapsible_tabs -%}
+	{{ 'section-collapsible-content.css' | asset_url | stylesheet_tag }}
+	<script src="{{ 'collapsible-content.js' | asset_url }}" defer="defer"></script>
+	
+	{%- capture collapsible_content -%}
+		<div class="collapsible-content__items">
+			{%- for block in section.blocks -%}
+				{% if block.type == 'collapsible_tab' %}
+					<div
+						class="collapsible-content__item {% if block.settings.default_open %} active{% endif %}"
+						{{ block.shopify_attributes }}
+					>
+						<div class="collapsible-content__toggle">
+							<div class="collapsible-content__toggle-group">
+								{%- if block.settings.heading != blank -%}
+									<h3 class="collapsible-content__question button button--simple focus-inset">
+										<span>{{ block.settings.heading | escape }}</span>
+									</h3>
+								{%- endif -%}
+							</div>
+						</div>
+						{%- if block.settings.content != blank -%}
+							<div
+								class="collapsible-content__answer no-js-flex"
+								{% if block.settings.default_open %}
+									style="display: block;"
+								{% endif %}
+							>
+								<div class="collapsible-content__answer-inner">
+									{{ block.settings.content }}
+								</div>
+							</div>
+						{%- endif -%}
+					</div>
+				{% endif %}
+			{%- endfor -%}
+		</div>
+	{%- endcapture -%}
+{%- endif -%}
+
+
 {%- if first_3d_model -%}
 	{{ 'component-product-model.css' | asset_url | stylesheet_tag }}
 	<link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
@@ -33,7 +83,7 @@
 
 <section id="MainProduct-{{ section.id }}" data-section="{{ section.id }}" data-color="dark" class="{% if section.settings.gallery_type == 'static_column_aside' or section.settings.gallery_type == 'two_column_aside' %}{% if section.settings.header_overlay == true %}section--have-overlay{% endif %}{% endif %}">
 	<div class="product {% if product.media.size > 0 %}row{% else %}product--no-media{% endif %}">
-		<div class="{% if section.settings.gallery_type == 'static_multicolumns_aside' or section.settings.gallery_type == 'thumbs_aside' or section.settings.gallery_type == 'thumbs_aside_horizontal' %} container {% endif %} product__outer product__outer--{% if section.settings.gallery_type == 'static_multicolumns_aside' %}static-multicolumns-aside{% elsif section.settings.gallery_type == 'thumbs_aside' or section.settings.gallery_type == 'thumbs_aside_horizontal' %}thumbs-aside{% elsif section.settings.gallery_type == 'static_column_aside' %}static-column-aside{% elsif section.settings.gallery_type == 'two_column_aside' %}two-column-aside{% endif %}
+		<div class="{% if section.settings.gallery_type == 'static_multicolumns_aside' or section.settings.gallery_type == 'thumbs_aside' or section.settings.gallery_type == 'thumbs_aside_horizontal' %} container {% endif %} product__outer product__outer--{% if section.settings.gallery_type == 'static_multicolumns_aside' %}static-multicolumns-aside{% elsif section.settings.gallery_type == 'thumbs_aside' or section.settings.gallery_type == 'thumbs_aside_horizontal' %}thumbs-aside{% elsif section.settings.gallery_type == 'static_column_aside' %}static-column-aside{% elsif section.settings.gallery_type == 'two_column_aside' %}two-column-aside{% elsif section.settings.gallery_type == 'custom' %}custom{% endif %}
 			{% if section.settings.desktop_alignment == 'right' %}product__outer--desktop-order{% endif %}
 			{% if section.settings.mobile_alignment == 'after' %}product__outer--mobile-order{% endif %}
 			{% if section.settings.gallery_type == 'thumbs_aside_horizontal' %} thumbs_aside_horizontal {% endif %}"
@@ -365,119 +415,157 @@
 		
 								{%- when 'variant_picker' -%}
 									<div class="product-parameters {% if block.settings.picker_type == 'button' %}product-parameters-radius{% endif %}">
-										{% unless product.has_only_default_variant %}
+										{% unless product.has_only_default_variant and product.metafields.custom.variants == blank %}
 											{% if block.settings.picker_type == 'button' %}
-												<variant-radios
-													id="variant-radios-{{ section.id }}"
-													class="no-js-hidden variant-radios"
-													data-section="{{ section.id }}"
-													data-url="{{ product.url }}"
-													{{ block.shopify_attributes }}
-												>
-													{%- for option in product.options_with_values -%}
-														{% liquid
-															assign color_swatch = false
-															assign option_name_first = ''
-															assign color_trigger = settings.trigger_swatch | append: '<br />' | append: settings.trigger_swatch_other | strip | newline_to_br | split: '<br />' 
-															assign name_option = option.name | handle | strip
-															assign option_name = option.name | escape | downcase
-															assign size_text = 'general.size' | t | downcase
+													<variant-radios
+														id="variant-radios-{{ section.id }}"
+														class="no-js-hidden variant-radios"
+														data-section="{{ section.id }}"
+														data-url="{{ product.url }}"
+														{{ block.shopify_attributes }}
+													>
+														{%- unless product.has_only_default_variant -%}
+															{%- for option in product.options_with_values -%}
+																{% liquid
+																	assign color_swatch = false
+																	assign option_name_first = ''
+																	assign color_trigger = settings.trigger_swatch | append: '<br />' | append: settings.trigger_swatch_other | strip | newline_to_br | split: '<br />' 
+																	assign name_option = option.name | handle | strip
+																	assign option_name = option.name | escape | downcase
+																	assign size_text = 'general.size' | t | downcase
 
-															for item in color_trigger
-																assign item_temp = item | handle | strip
-																if name_option == item_temp
-																	assign color_swatch = true
-																	assign option_name_first = item_temp
-																endif
-															endfor
-														%}
-		
-														<fieldset class="product-form__controls product-form__controls--{% if settings.type_color_swatch == 'custom' and color_swatch %}colors{% endif %}" id="SingleOptionSelector-{{ forloop.index0 }}">
-															{% if block.settings.pill_group %}
-																<div class="product-form__group-name subtitle">
-																	{{ option.name }}
-																</div>
-															{% endif %}
-															<div class="product-form__controls-group">
-																{% render 'product-variant-options', product: product, option: option, block: block, option_name_first: option_name_first, option_name: option_name, notify_me: notify_me %}
-															</div>
-
-															{% if option_name == size_text and block.settings.show_size_guide %}
-																<modal-opener
-																	class="no-js-hidden"
-																	data-modal="#PopupModal-{{ block.id }}"
-																	{{ block.shopify_attributes }}
-																>
-																	<button
-																		class="button button--simple size-guide-btn"
-																		id="ProductPopup-{{ block.id }}"
-																		type="button"
-																		aria-haspopup="dialog"
-																		aria-label="Open popup"
-																	>
-																		<span>{{ block.settings.size_guide_text }}</span>
-																	</button>
-																</modal-opener>
-																<modal-dialog
-																	id="PopupModal-{{ block.id }}"
-																	class="product-popup-modal size_guide_image_container"
-																	{{ block.shopify_attributes }}
-																>
-																	<div
-																		role="dialog"
-																		aria-label="{{ block.settings.size_guide_text }}"
-																		aria-modal="true"
-																		class="product-popup-modal__content size_guide_modal"
-																		tabindex="-1"
-																	>
-																		<div class="product-popup-modal__top">
-																			<button
-																				id="ModalClose-{{ block.id }}"
-																				type="button"
-																				class="product-popup-modal__close modal-close-button focus-inset"
-																				aria-label="{{ 'accessibility.close' | t }}"
-																			>
-																				{% render 'icon-close' %}
-																			</button>
+																	for item in color_trigger
+																		assign item_temp = item | handle | strip
+																		if name_option == item_temp
+																			assign color_swatch = true
+																			assign option_name_first = item_temp
+																		endif
+																	endfor
+																%}
+				
+																<fieldset class="product-form__controls product-form__controls--{% if settings.type_color_swatch == 'custom' and color_swatch %}colors{% endif %}" id="SingleOptionSelector-{{ forloop.index0 }}">
+																	{% if block.settings.pill_group %}
+																		<div class="product-form__group-name subtitle">
+																			{{ option.name }}
 																		</div>
-																		<div class="product-popup-modal__content-info">
-																			{%- if block.settings.size_guide_header != blank -%}
-																				<h3 class="product-popup-modal__heading">
-																					{{ block.settings.size_guide_header }}
-																				</h3>
-																			{%- endif -%}
-																			{%- if block.settings.size_guide_description != blank -%}
-																				<div class="product-popup-modal__text">
-																					{{ block.settings.size_guide_description }}
-																				</div>
-																			{%- endif -%}
-																			{% if block.settings.size_guide_image != blank
-																				and block.settings.show_size_guide
-																			%}
-																				<div class="size_guide_image">
-																					{{
-																						block.settings.size_guide_image
-																						| image_url: width: 1790
-																						| image_tag: loading: 'lazy', widths: '553, 895, 1790'
-																					}}
-																				</div>
-																			{% endif %}
-																			{%- if block.settings.page.content != blank -%}
-																				<div class="size_guide_content">
-																					{{ block.settings.page.content }}
-																				</div>
-																			{%- endif -%}
-																		</div>
+																	{% endif %}
+																	<div class="product-form__controls-group">
+																		{% render 'product-variant-options', product: product, option: option, block: block, option_name_first: option_name_first, option_name: option_name, notify_me: notify_me %}
 																	</div>
-																</modal-dialog>
-															{% endif %}
-														</fieldset>
-													{%- endfor -%}
-		
-													<script type="application/json">
-															{{ product.variants | json }}
-														</script>
-												</variant-radios>
+
+																	{% if option_name == size_text and block.settings.show_size_guide %}
+																		<modal-opener
+																			class="no-js-hidden"
+																			data-modal="#PopupModal-{{ block.id }}"
+																			{{ block.shopify_attributes }}
+																		>
+																			<button
+																				class="button button--simple size-guide-btn"
+																				id="ProductPopup-{{ block.id }}"
+																				type="button"
+																				aria-haspopup="dialog"
+																				aria-label="Open popup"
+																			>
+																				<span>{{ block.settings.size_guide_text }}</span>
+																			</button>
+																		</modal-opener>
+																		<modal-dialog
+																			id="PopupModal-{{ block.id }}"
+																			class="product-popup-modal size_guide_image_container"
+																			{{ block.shopify_attributes }}
+																		>
+																			<div
+																				role="dialog"
+																				aria-label="{{ block.settings.size_guide_text }}"
+																				aria-modal="true"
+																				class="product-popup-modal__content size_guide_modal"
+																				tabindex="-1"
+																			>
+																				<div class="product-popup-modal__top">
+																					<button
+																						id="ModalClose-{{ block.id }}"
+																						type="button"
+																						class="product-popup-modal__close modal-close-button focus-inset"
+																						aria-label="{{ 'accessibility.close' | t }}"
+																					>
+																						{% render 'icon-close' %}
+																					</button>
+																				</div>
+																				<div class="product-popup-modal__content-info">
+																					{%- if block.settings.size_guide_header != blank -%}
+																						<h3 class="product-popup-modal__heading">
+																							{{ block.settings.size_guide_header }}
+																						</h3>
+																					{%- endif -%}
+																					{%- if block.settings.size_guide_description != blank -%}
+																						<div class="product-popup-modal__text">
+																							{{ block.settings.size_guide_description }}
+																						</div>
+																					{%- endif -%}
+																					{% if block.settings.size_guide_image != blank
+																						and block.settings.show_size_guide
+																					%}
+																						<div class="size_guide_image">
+																							{{
+																								block.settings.size_guide_image
+																								| image_url: width: 1790
+																								| image_tag: loading: 'lazy', widths: '553, 895, 1790'
+																							}}
+																						</div>
+																					{% endif %}
+																					{%- if block.settings.page.content != blank -%}
+																						<div class="size_guide_content">
+																							{{ block.settings.page.content }}
+																						</div>
+																					{%- endif -%}
+																				</div>
+																			</div>
+																		</modal-dialog>
+																	{% endif %}
+																</fieldset>
+															{%- endfor -%}
+														{%- endunless -%}
+
+														{%- if product.metafields.custom.variants != blank -%}
+															<fieldset class="product-form__controls product-form__controls--{% if settings.type_color_swatch == 'custom' and color_swatch %}colors{% endif %}" id="SingleOptionSelector-{{ forloop.index0 }}">
+																<div class="product-form__group-name subtitle">
+																	Colour:
+																</div>
+
+																<div class="product-form__controls-group">
+																	{%- for variant in product.metafields.custom.variants.value %}
+																		{%- if variant.id != product.id -%}	
+																		<a href="{{ variant.url }}">
+																		{%- endif -%}
+																			<div
+																				style="
+																					background-image:url(
+																						{%- liquid
+																							if variant.featured_image != blank
+																								echo variant.featured_image | image_url: width: 250
+																							else
+																								echo 'data:image/svg+xml,%3Csvg%20width%3D%2250%22%20height%3D%2267%22%20viewBox%3D%220%200%2050%2067%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%2250%22%20height%3D%2267%22%20fill%3D%22%23F5F5F5%22%2F%3E%3Cg%20opacity%3D%220.3%22%3E%3Cpath%20d%3D%22M17.5%2036.8333L23.3333%2034.3333L26.6667%2035.8483M29.0658%2041.1008L30.8333%2039.3333M30.8333%2039.3333L32.6008%2037.5658M30.8333%2039.3333L29.0658%2037.5658M30.8333%2039.3333L32.6008%2041.1008M28.3333%2031.8333C27.8913%2031.8333%2027.4674%2031.6577%2027.1548%2031.3452C26.8423%2031.0326%2026.6667%2030.6087%2026.6667%2030.1667C26.6667%2029.7246%2026.8423%2029.3007%2027.1548%2028.9882C27.4674%2028.6756%2027.8913%2028.5%2028.3333%2028.5C28.7754%2028.5%2029.1993%2028.6756%2029.5118%2028.9882C29.8244%2029.3007%2030%2029.7246%2030%2030.1667C30%2030.6087%2029.8244%2031.0326%2029.5118%2031.3452C29.1993%2031.6577%2028.7754%2031.8333%2028.3333%2031.8333Z%22%20stroke%3D%22black%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M25.8333%2041H18C17.8674%2041%2017.7402%2040.9473%2017.6464%2040.8536C17.5527%2040.7598%2017.5%2040.6326%2017.5%2040.5V26.5C17.5%2026.3674%2017.5527%2026.2402%2017.6464%2026.1464C17.7402%2026.0527%2017.8674%2026%2018%2026H32C32.1326%2026%2032.2598%2026.0527%2032.3536%2026.1464C32.4473%2026.2402%2032.5%2026.3674%2032.5%2026.5V34.3333%22%20stroke%3D%22black%22%20stroke-width%3D%221.1%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E'
+																							endif
+																						-%}
+																					);
+																				"
+																				class="variant-swatch bg_size-{{ section.settings.image_ratio }} {% if notify_me %} notify_me{% endif %} {%- if variant.id == product.id -%} is-active {% endif -%}"
+																				title="{{ variant.metafields.custom.color }}}"
+																			>
+																				<span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+																			</div>
+																		{%- if variant.id != product.id -%}	
+																		</a>
+																		{%- endif -%}
+																	{% endfor -%}
+																</div>
+															</fieldset>
+														{%- endif -%}
+			
+														<script type="application/json">
+																{{ product.variants | json }}
+															</script>
+													</variant-radios>
 											{% else %}
 												<variant-radios
 													id="variant-radios-{{ section.id }}"
@@ -1125,7 +1213,13 @@
 											</div>
 										</modal-dialog>
 									</div>
-		
+								{%- when 'collapsible_tab' -%}	
+									{%- unless tabs_rendered -%}
+										{{ collapsible_content }}
+
+										{%- assign tabs_rendered = true -%}
+									{%- endunless -%}
+
 								{%- when '@app' -%}
 									{% render block %}
 							{%- endcase -%}
@@ -2077,6 +2171,22 @@ customElements.define('product-modal', ProductModal);
 					]
 				}
 			]
+		},
+		{
+			"type": "collapsible_tab",
+			"name": "Collapsible tab",
+			"settings": [
+				{
+					"type": "text",
+					"id": "heading",
+					"label": "Heading"
+				},
+				{
+					"type": "richtext",
+					"id": "content",
+					"label": "Content"
+				}
+			]
 		}
 	],
 	"settings": [
@@ -2108,6 +2218,10 @@ customElements.define('product-modal', ProductModal);
 				{
 					"value": "two_column_aside",
 					"label": "t:sections.main-product.settings.gallery_type.options__4.label"
+				},
+				{
+					"value": "custom",
+					"label": "Custom"
 				}
 			],
 			"default": "static_multicolumns_aside",

@@ -730,16 +730,16 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
   width: auto;
   margin: 0;
 }
-.product__popup .product-parameters variant-radios.variant-radios .product-form__controls-group label.variant-swatch {
+.product__popup .product-parameters variant-radios.variant-radios .product-form__controls-group .variant-swatch {
   width: 4rem;
 }
-.product__popup .product-parameters variant-radios.variant-radios .product-form__controls-group label.variant-swatch.bg_size-landscape {
+.product__popup .product-parameters variant-radios.variant-radios .product-form__controls-group .variant-swatch.bg_size-landscape {
   height: 2.6rem;
 }
-.product__popup .product-parameters variant-radios.variant-radios .product-form__controls-group label.variant-swatch.bg_size-portrait {
+.product__popup .product-parameters variant-radios.variant-radios .product-form__controls-group .variant-swatch.bg_size-portrait {
   height: 5.5rem;
 }
-.product__popup .product-parameters variant-radios.variant-radios .product-form__controls-group label.variant-swatch.bg_size-square {
+.product__popup .product-parameters variant-radios.variant-radios .product-form__controls-group .variant-swatch.bg_size-square {
   height: 4rem;
 }
 .product__popup .product-parameters variant-radios.variant-radios modal-opener {
@@ -2008,7 +2008,8 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
 .product-form__controls-group input:checked:not(.disabled) + label::after {
   width: 100%;
 }
-.product-form__controls-group label {
+.product-form__controls-group label,
+.product-form__controls-group div {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2016,7 +2017,7 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
   position: relative;
   transition: var(--duration-default);
 }
-.product-form__controls-group label::after {
+.product-form__controls-group div::after {
   bottom: -3px;
 }
 .product-form__group-name {
@@ -2510,7 +2511,7 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
   }
 }
 
-.product-form__controls-group label.variant-swatch {
+.product-form__controls-group .variant-swatch {
   width: 5rem;
   height: 6.7rem;
   background-repeat: no-repeat;
@@ -2519,33 +2520,33 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
   border: 1px solid transparent;
   transition: all var(--duration-default);
 }
-.product-form__controls-group label.variant-swatch.bg_size-landscape {
+.product-form__controls-group .variant-swatch.bg_size-landscape {
   height: 3.6rem;
 }
-.product-form__controls-group label.variant-swatch.bg_size-portrait {
+.product-form__controls-group .variant-swatch.bg_size-portrait {
   height: 6.7rem;
 }
-.product-form__controls-group label.variant-swatch.bg_size-square {
+.product-form__controls-group .variant-swatch.bg_size-square {
   height: 5rem;
 }
-.product-form__controls-group label.variant-swatch:hover {
+.product-form__controls-group .variant-swatch:hover {
   border: 1px solid rgb(var(--color-foreground));
 }
 
-.product-form__controls-group input:checked:not(.disabled) + label.variant-swatch {
+.product-form__controls-group input:checked:not(.disabled) + .variant-swatch {
   border: 1px solid rgb(var(--color-foreground));
 }
 
-.product-form__controls-group input:checked + label.variant-swatch.notify_me {
+.product-form__controls-group input:checked + .variant-swatch.notify_me {
   border: 1px solid rgb(var(--color-foreground));
 }
 
-.product-form__controls-group input.disabled + label.variant-swatch:not(.notify_me) {
+.product-form__controls-group input.disabled + .variant-swatch:not(.notify_me) {
   opacity: 0.4;
 }
 
 /* Color swathes */
-.product-form__controls-group label.color-swatch::before {
+.product-form__controls-group .color-swatch::before {
   content: "";
   width: 0.8rem;
   height: 0.8rem;
@@ -2643,11 +2644,11 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
 .complementary-products {
   margin: 4rem 0;
 }
-.complementary-products .product-form__controls-group label.color-swatch {
+.complementary-products .product-form__controls-group .color-swatch {
   width: 1.6rem !important;
   height: 1.6rem !important;
 }
-.complementary-products .product-form__controls-group label.color-swatch:after {
+.complementary-products .product-form__controls-group .color-swatch:after {
   width: 1rem !important;
   height: 1rem !important;
 }
@@ -2750,4 +2751,95 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
   .section--have-overlay .product__outer--two-column-aside .product__info-container .product__info-main {
     margin-top: calc(var(--header-height) + 6.4rem);
   }
+}
+
+.product__outer--custom .swiper-wrapper .product__media {
+  background-color: #f2f2f4;
+}
+
+@media (min-width: 990px) {
+  .product__outer--custom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    max-width: 950px;
+    margin-inline: auto;
+  }
+
+  .product__outer--custom .product__media-list .product__media {
+    min-height: auto;
+  }
+
+  .product__outer--custom .swiper-wrapper {
+    height: auto !important;
+    flex-direction: column;
+  }
+
+  .product__outer--custom .product__info-main {
+    position: sticky;
+    top: 80px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+
+  .product__outer--custom .product__info-main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product__outer--custom .product__pagination-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 989px) {
+  .product__outer--custom .product__info-main {
+    padding-inline: 20px;
+  }
+
+  .product__outer--custom .product__pagination-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.product__outer--custom .collapsible-content__item {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.product__outer--custom .collapsible-content__toggle {
+  padding: 0;
+}
+
+.product__outer--custom .product-form__controls-group {
+  align-items: start;
+  gap: .4rem;
+}
+
+.product__outer--custom .product-form__controls-group div {
+  position: relative;
+  background-size: contain;
+  background-color: #f2f2f4;
+}
+
+.product__outer--custom .product-form__controls-group .variant-swatch {
+  border: 0;
+}
+
+.product__outer--custom .product-form__controls-group .variant-swatch:hover {
+  opacity: 0.8;
+}
+
+.product__outer--custom .product-form__controls-group .variant-swatch:hover::after,
+.product__outer--custom .product-form__controls-group div.is-active::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+  bottom: -6px;
+}
+
+.product__outer--custom .product-form__controls-group .variant-swatch.bg_size-portrait {
+  height: 6.2rem;
 }
