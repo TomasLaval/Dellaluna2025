@@ -129,7 +129,7 @@
 										aria-label="{{ 'accessibility.product_link' | t }}"
 									></a>
 								</div>
-								{% for img in product_card_product.media offset: 1 %}
+								{% for img in product_card_product.media offset: 1 limit: 2 %}
 									<div class="swiper-slide media media--transparent media--{{ media_size }}">
 										{{
 											img
