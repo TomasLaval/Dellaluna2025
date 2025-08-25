@@ -794,7 +794,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/Screen_Shot_2022-03-21_at_3.13.41_PM.png",
+            "image": "shopify://shop_images/vesper_collection.jpg",
             "button_label": "Shop Collection",
             "button_link": "",
             "overlay_opacity": 0.2
@@ -803,7 +803,7 @@
         "collection_item_bhTdtw": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "cinema",
             "image": "shopify://shop_images/VITTORIA_sand_SMAll_fff16db7-9cb9-49ba-955e-0164ac77b5ab.jpg",
             "button_label": "Shop Collection",
             "button_link": "",
