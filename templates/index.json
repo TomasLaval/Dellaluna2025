@@ -494,6 +494,7 @@
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/Screenshot_2025-05-04_at_22.09.22.png",
+            "mobile_image": "shopify://shop_images/Completed_of_final_printing_of_brand_bible_dellaluna_-2.png",
             "overlay_opacity": 0,
             "enable_hover": true,
             "show_video": false,
@@ -524,7 +525,7 @@
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
-        "aspect_ratio_mobile": "adapt",
+        "aspect_ratio_mobile": "full",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
