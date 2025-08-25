@@ -221,29 +221,29 @@
         "margin_bottom": "no-indent"
       }
     },
-    "media_banner_Wj63b9": {
+    "media_banner_RWPK83": {
       "type": "media-banner",
       "blocks": {
-        "media_slide_tLmenm": {
+        "media_slide_3wjhQF": {
           "type": "media_slide",
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify://shop_images/image-4.png",
+            "image": "shopify://shop_images/DellaLunaST01_058b2.jpg",
             "overlay_opacity": 0,
             "enable_hover": true,
             "show_video": true,
-            "video": "shopify://files/videos/making off short version.mp4",
+            "video": "shopify://files/videos/Movie_AFFRESCO_DESKTO.mp4",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
-            "heading": "The art of craftsmanship",
+            "heading": "The Affresco",
             "heading_size": "h1",
-            "description": "Slowly and deliberately, each bag is made to withstand time itself.",
+            "description": "The iconic DELLALUNA handbag.",
             "position_content": "bottom",
             "align_content": "left",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "tertiary",
+            "button_label": "Discover",
+            "button_link": "shopify://collections/affresco",
+            "button_style": "primary",
             "button_label2": "",
             "button_link2": "",
             "button_style2": "secondary",
@@ -252,7 +252,7 @@
         }
       },
       "block_order": [
-        "media_slide_tLmenm"
+        "media_slide_3wjhQF"
       ],
       "name": "t:sections.media-banner.name",
       "settings": {
@@ -309,6 +309,51 @@
         "margin_bottom": "no-indent"
       }
     },
+    "media_banner_Wj63b9": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_tLmenm": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/image-4.png",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": true,
+            "video": "shopify://files/videos/making off short version.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "The art of craftsmanship",
+            "heading_size": "h1",
+            "description": "Slowly and deliberately, each bag is made to withstand time itself.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_tLmenm"
+      ],
+      "name": "t:sections.media-banner.name",
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-effect",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
     "media-banner-2": {
       "type": "media-banner",
       "blocks": {
@@ -345,51 +390,6 @@
       "settings": {
         "header_overlay": false,
         "sticky": "sticky-none",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "media_banner_RWPK83": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_3wjhQF": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify://shop_images/DellaLunaST01_058b2.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": true,
-            "show_video": true,
-            "video": "shopify://files/videos/Movie_AFFRESCO_DESKTO.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "The Affresco",
-            "heading_size": "h1",
-            "description": "The iconic DELLALUNA handbag.",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "Discover",
-            "button_link": "shopify://collections/affresco",
-            "button_style": "primary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_3wjhQF"
-      ],
-      "name": "t:sections.media-banner.name",
-      "settings": {
-        "header_overlay": true,
-        "sticky": "sticky-effect",
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
@@ -524,7 +524,7 @@
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
+        "aspect_ratio_mobile": "adapt",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
