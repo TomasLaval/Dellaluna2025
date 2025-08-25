@@ -6327,3 +6327,40 @@ details[open] > .header__icon--menu .icon-hamburger {
     top: 100%;
   }
 }
+
+.header__heading-link {
+  position: relative;
+}
+
+.header__heading-link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 100%;
+  transform: translateX(-50%) rotate(10deg);
+  background: linear-gradient(90deg,rgba(255, 0, 0, 0) 0%, rgba(255, 255, 255, .6) 50%, rgba(255, 255, 255, 0) 100%);
+  animation: shine 10s ease-in-out infinite;
+}
+
+.shopify-section-header.color-background-2 .header__heading-link::after {
+  background: transparent;
+}
+
+@keyframes shine {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  80% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+ 
