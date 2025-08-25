@@ -6295,3 +6295,35 @@ details[open] > .header__icon--menu .icon-hamburger {
 .age-verification__declined.show {
   display: block;
 }
+
+@media screen and (min-width: 990px) {
+  .header {
+    align-items: stretch !important;
+  }
+
+  .burger-menu {
+    position: absolute !important;
+    top: 100% !important;
+    z-index: -1 !important;
+  }
+
+  .burger-menu .burger-menu__wrapper {
+    transform: translate(0, -100%);
+    height: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    opacity: 0;
+  }
+
+  .burger-menu--open .burger-menu__wrapper {
+    opacity: 1;
+  }
+
+  .burger-menu__toggle--close-btn {
+    display: none !important;
+  }
+
+  .burger-menu .burger-menu__overlay {
+    top: 100%;
+  }
+}

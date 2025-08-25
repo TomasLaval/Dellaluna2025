@@ -36,11 +36,14 @@ class BurgerMenu extends HTMLElement {
 	}
 
 	setListeners() {
+		this.addEventListener("mouseleave", (event) => this.close(event));
 		this.openButton?.addEventListener("click", (event) => this.open(event));
+		this.openButton?.addEventListener("mouseenter", (event) => this.open(event));
 		this.closeButton?.forEach((item) =>
 			item.addEventListener("click", (event) => this.close(event))
 		);
 		this.overlay?.addEventListener("click", (event) => this.close(event));
+		this.overlay?.addEventListener("mouseenter", (event) => this.close(event));
 		this.burgerMenu?.addEventListener(
 			"keyup",
 			(event) => event.code === "Escape" && this.close(event)
