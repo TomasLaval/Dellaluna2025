@@ -48,13 +48,7 @@
         "image_9FHLdz",
         "image_7JJRKU"
       ],
-      "custom_css": [
-        ".products-grid.container {padding-inline: 0;}",
-        ".products-grid .collection-product-list {gap: 0;}",
-        ".products-grid .card-information {padding-inline: 20px;}",
-        ".card.card--product {background: #f2f2f4;}",
-        ".collection-product-list .collection-product-promo-img img {height: 100%;}"
-      ],
+      "custom_css": [],
       "settings": {
         "products_per_page": 32,
         "enable_per_row_button": true,
