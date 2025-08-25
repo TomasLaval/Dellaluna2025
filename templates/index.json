@@ -257,7 +257,51 @@
       "name": "t:sections.media-banner.name",
       "settings": {
         "header_overlay": true,
-        "sticky": "sticky-effect",
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_Y7dewk": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_kRigTD": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/IMG_5816-2_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "For the love of Gold",
+            "heading_size": "h1",
+            "description": "Treasures made to be held, coated in 24k gold, created in limited numbers.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "discover",
+            "button_link": "",
+            "button_style": "primary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_kRigTD"
+      ],
+      "disabled": true,
+      "settings": {
+        "header_overlay": false,
+        "sticky": "sticky-none",
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
@@ -482,49 +526,6 @@
         "button_label": "",
         "button_link": "",
         "button_style": "simple",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "media_banner_Y7dewk": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_kRigTD": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/IMG_5816-2_copy.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": true,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "For the love of Gold",
-            "heading_size": "h1",
-            "description": "Treasures made to be held, coated in 24k gold, created in limited numbers.",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "discover",
-            "button_link": "",
-            "button_style": "primary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_kRigTD"
-      ],
-      "settings": {
-        "header_overlay": false,
-        "sticky": "sticky-none",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -964,12 +965,12 @@
     "media_banner_U7ez39",
     "media_banner_X7p6HA",
     "media_banner_RWPK83",
+    "media_banner_Y7dewk",
     "media_banner_qHe8nV",
     "media_banner_Wj63b9",
     "media-banner-2",
     "categories_list_GLy99k",
     "popular-products1",
-    "media_banner_Y7dewk",
     "media_banner_zBcVN7",
     "banner_with_popup_PQ8VcF",
     "featured-products",
