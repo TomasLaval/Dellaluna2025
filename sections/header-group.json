@@ -49,7 +49,7 @@
         "enable_border": false,
         "header_type": "center-logo",
         "logo": "shopify://shop_images/logo_vettoriale_dellaluna_gold_1.png",
-        "logo_width": 110,
+        "logo_width": 180,
         "menu": "main-menu",
         "sticky_header_type": "always",
         "header_animation_type": "fade",
