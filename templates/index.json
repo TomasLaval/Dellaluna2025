@@ -465,6 +465,73 @@
         "margin_bottom": "m"
       }
     },
+    "categories_list_AfQVmR": {
+      "type": "categories-list",
+      "blocks": {
+        "collection_item_iycmk3": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/vesper_2.webp",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_fFQxiq": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "affresco",
+            "image": "shopify://shop_images/af_blue.webp",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_twCAAX": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "cinema",
+            "image": "shopify://shop_images/VITTORIA_sand_SMAll_d1a4104a-7268-4ea7-8d77-b6493640884c.jpg",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_M4kFLJ": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/VIrna_redjpg.jpg",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_iycmk3",
+        "collection_item_fFQxiq",
+        "collection_item_twCAAX",
+        "collection_item_M4kFLJ"
+      ],
+      "name": "t:sections.categories-list.presets.name",
+      "settings": {
+        "subheading": "",
+        "heading": "Collections title",
+        "heading_size": "h1",
+        "button_label": "Learn More",
+        "button_link": "",
+        "button_style": "simple",
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_desc": false,
+        "collection_heading_size": "h2",
+        "collections_to_show": 4,
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
+    },
     "popular-products1": {
       "type": "popular-products",
       "disabled": true,
@@ -936,6 +1003,7 @@
     "media_banner_Wj63b9",
     "media-banner-2",
     "categories_list_GLy99k",
+    "categories_list_AfQVmR",
     "popular-products1",
     "media_banner_zBcVN7",
     "banner_with_popup_PQ8VcF",
