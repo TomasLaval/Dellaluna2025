@@ -591,6 +591,7 @@
       "block_order": [
         "media_slide_r6Leqr"
       ],
+      "disabled": true,
       "settings": {
         "header_overlay": false,
         "sticky": "sticky-none",
@@ -618,9 +619,9 @@
       "settings": {
         "aspect_ratio": "full",
         "full_screen_image_mode": false,
-        "heading": "New Season, New Styles",
-        "heading_size": "h1",
-        "description": "<p>Puede contener múltiples imágenes que van rotando a la izquierda. Este texto siempre será el mismo.</p>",
+        "heading": "Palazzo Dellaluna",
+        "heading_size": "h2",
+        "description": "<p>Step into our world ,where craft, beauty, and Venice come together.</p>",
         "button_label": "View More",
         "button_link": "",
         "button_style": "simple",
