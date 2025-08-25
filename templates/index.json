@@ -154,6 +154,50 @@
         "margin_bottom": "no-indent"
       }
     },
+    "media_banner_KMFhre": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_RcXE6M": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/IMG_4245_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "For the love of Cinema",
+            "heading_size": "h1",
+            "description": "Refinement and glamour unite in a vibrant collection.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/cinema",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_RcXE6M"
+      ],
+      "name": "t:sections.media-banner.name",
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-effect",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
     "media_banner_Wj63b9": {
       "type": "media-banner",
       "blocks": {
@@ -206,8 +250,9 @@
           "type": "media_slide",
           "settings": {
             "color_scheme": "background-2",
-            "image": "shopify://shop_images/IMG_5463.jpg",
-            "overlay_opacity": 0.2,
+            "image": "shopify://shop_images/Silvia_della_Luna-08785_2.jpg",
+            "mobile_image": "shopify://shop_images/Silvia_della_Luna-08785_2_9b753c4e-eb7f-44f8-b581-ca3099db4fcc.jpg",
+            "overlay_opacity": 0,
             "enable_hover": true,
             "show_video": false,
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -692,6 +737,50 @@
         "margin_bottom": "no-indent"
       }
     },
+    "media_banner_kV9Qwp": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_r6Leqr": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/shopify_DallaLuna_est01_0038edit_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "The Go-To Collection",
+            "heading_size": "h1",
+            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover Collection",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_r6Leqr"
+      ],
+      "disabled": true,
+      "settings": {
+        "header_overlay": false,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
     "product-slider": {
       "type": "product-slider",
       "blocks": {
@@ -754,94 +843,6 @@
         "show_size_count": false,
         "show_collection": false,
         "show_desc": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "media_banner_kV9Qwp": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_r6Leqr": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/shopify_DallaLuna_est01_0038edit_copy.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": true,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "The Go-To Collection",
-            "heading_size": "h1",
-            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "Discover Collection",
-            "button_link": "",
-            "button_style": "tertiary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_r6Leqr"
-      ],
-      "disabled": true,
-      "settings": {
-        "header_overlay": false,
-        "sticky": "sticky-none",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "media_banner_KMFhre": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_RcXE6M": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify://shop_images/IMG_4245_copy.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": false,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "For the love of Cinema",
-            "heading_size": "h1",
-            "description": "Refinement and glamour unite in a vibrant collection.",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "Shop Now",
-            "button_link": "shopify://collections/cinema",
-            "button_style": "tertiary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_RcXE6M"
-      ],
-      "name": "t:sections.media-banner.name",
-      "settings": {
-        "header_overlay": true,
-        "sticky": "sticky-effect",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
