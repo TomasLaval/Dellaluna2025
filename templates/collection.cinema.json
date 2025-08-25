@@ -21,17 +21,6 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "image_9FHLdz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/VITTORIA_sand2_midi_psd_copy.jpg",
-            "heading": "",
-            "heading_size": "h2",
-            "description": "",
-            "color_scheme": "background-2",
-            "overlay_opacity": 0.1
-          }
-        },
         "image_7JJRKU": {
           "type": "image",
           "settings": {
@@ -42,11 +31,22 @@
             "color_scheme": "background-2",
             "overlay_opacity": 0.1
           }
+        },
+        "image_9FHLdz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2VITTORIA_sand_midi_psd_copy.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "",
+            "color_scheme": "background-2",
+            "overlay_opacity": 0.1
+          }
         }
       },
       "block_order": [
-        "image_9FHLdz",
-        "image_7JJRKU"
+        "image_7JJRKU",
+        "image_9FHLdz"
       ],
       "custom_css": [],
       "settings": {
