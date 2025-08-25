@@ -210,6 +210,75 @@
         "margin_bottom": "m"
       }
     },
+    "media_banner_X7p6HA": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_yH8eEV": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/DSC06458.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "From Venice with Amore",
+            "heading_size": "h1",
+            "description": "",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/handbags",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        },
+        "media_slide_HWWzzD": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Silvia_della_Luna-08785_2_9b753c4e-eb7f-44f8-b581-ca3099db4fcc.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "description": "",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_yH8eEV",
+        "media_slide_HWWzzD"
+      ],
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
     "media_banner_U7ez39": {
       "type": "media-banner",
       "blocks": {
@@ -290,75 +359,6 @@
       "settings": {
         "header_overlay": true,
         "sticky": "sticky-effect",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "media_banner_X7p6HA": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_yH8eEV": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/DSC06458.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": false,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "From Venice with Amore",
-            "heading_size": "h1",
-            "description": "",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/handbags",
-            "button_style": "tertiary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        },
-        "media_slide_HWWzzD": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/Silvia_della_Luna-08785_2_9b753c4e-eb7f-44f8-b581-ca3099db4fcc.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": false,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "description": "",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "tertiary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_yH8eEV",
-        "media_slide_HWWzzD"
-      ],
-      "settings": {
-        "header_overlay": true,
-        "sticky": "sticky-none",
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
@@ -917,12 +917,12 @@
     "media_banner_RWPK83",
     "media-banner-1",
     "popular-products",
-    "categories_list_GLy99k",
     "media_banner_U7ez39",
-    "media_banner_Wj63b9",
     "media_banner_X7p6HA",
+    "media_banner_Wj63b9",
     "media_banner_x6FF9Y",
     "media-banner-2",
+    "categories_list_GLy99k",
     "popular-products1",
     "media_banner_Y7dewk",
     "banner_with_popup_PQ8VcF",
