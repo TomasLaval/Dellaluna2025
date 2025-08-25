@@ -9,51 +9,6 @@
  */
 {
   "sections": {
-    "media_banner_RWPK83": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_3wjhQF": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "background-2",
-            "image": "shopify://shop_images/DellaLunaST01_058b2.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": true,
-            "show_video": true,
-            "video": "shopify://files/videos/Movie_AFFRESCO_DESKTO.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "The Affresco",
-            "heading_size": "h1",
-            "description": "The iconic DELLALUNA handbag.",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "Discover",
-            "button_link": "shopify://collections/affresco",
-            "button_style": "primary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_3wjhQF"
-      ],
-      "name": "t:sections.media-banner.name",
-      "settings": {
-        "header_overlay": true,
-        "sticky": "sticky-effect",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
     "media-banner-1": {
       "type": "media-banner",
       "blocks": {
@@ -154,60 +109,47 @@
         "margin_bottom": "no-indent"
       }
     },
-    "categories_list_GLy99k": {
-      "type": "categories-list",
+    "media_banner_U7ez39": {
+      "type": "media-banner",
       "blocks": {
-        "collection_item_JbEwmJ": {
-          "type": "collection_item",
+        "media_slide_9UKBDN": {
+          "type": "media_slide",
           "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/vesper_collection.jpg",
-            "button_label": "Shop Collection",
-            "button_link": "",
-            "overlay_opacity": 0.2
-          }
-        },
-        "collection_item_bhTdtw": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "affresco",
-            "image": "shopify://shop_images/Affresco_Website_Black.jpg",
-            "button_label": "Shop Collection",
-            "button_link": "",
-            "overlay_opacity": 0.2
-          }
-        },
-        "collection_item_KyJkTG": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "cinema",
-            "image": "shopify://shop_images/Vittoria_Black_Website.jpg",
-            "button_label": "Shop Collection",
-            "button_link": "",
-            "overlay_opacity": 0.2
+            "color_scheme": "",
+            "image": "shopify://shop_images/IMG_4245_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "For the love of Cinema",
+            "heading_size": "h1",
+            "description": "Refinement and glamour unite in a vibrant collection",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/cinema",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
           }
         }
       },
       "block_order": [
-        "collection_item_JbEwmJ",
-        "collection_item_bhTdtw",
-        "collection_item_KyJkTG"
+        "media_slide_9UKBDN"
       ],
-      "name": "t:sections.categories-list.presets.name",
       "settings": {
-        "subheading": "",
-        "heading": "Collections title",
-        "heading_size": "h1",
-        "button_label": "Learn More",
-        "button_link": "",
-        "button_style": "simple",
-        "image_ratio": "portrait",
-        "image_fit": "cover",
-        "show_desc": false,
-        "collection_heading_size": "h2",
-        "collections_to_show": 4,
-        "margin_top": "m",
-        "margin_bottom": "m"
+        "header_overlay": true,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
       }
     },
     "media_banner_X7p6HA": {
@@ -267,49 +209,6 @@
       "block_order": [
         "media_slide_yH8eEV",
         "media_slide_HWWzzD"
-      ],
-      "settings": {
-        "header_overlay": true,
-        "sticky": "sticky-none",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "media_banner_U7ez39": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_9UKBDN": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/IMG_4245_copy.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": false,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "For the love of Cinema",
-            "heading_size": "h1",
-            "description": "Refinement and glamour unite in a vibrant collection",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/cinema",
-            "button_style": "tertiary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_9UKBDN"
       ],
       "settings": {
         "header_overlay": true,
@@ -442,6 +341,7 @@
       "block_order": [
         "media_slide"
       ],
+      "disabled": true,
       "settings": {
         "header_overlay": false,
         "sticky": "sticky-none",
@@ -451,6 +351,107 @@
         "aspect_ratio_mobile": "full",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_RWPK83": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_3wjhQF": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/DellaLunaST01_058b2.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": true,
+            "show_video": true,
+            "video": "shopify://files/videos/Movie_AFFRESCO_DESKTO.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "The Affresco",
+            "heading_size": "h1",
+            "description": "The iconic DELLALUNA handbag.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover",
+            "button_link": "shopify://collections/affresco",
+            "button_style": "primary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_3wjhQF"
+      ],
+      "name": "t:sections.media-banner.name",
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-effect",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "categories_list_GLy99k": {
+      "type": "categories-list",
+      "blocks": {
+        "collection_item_JbEwmJ": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/vesper_collection.jpg",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_bhTdtw": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "affresco",
+            "image": "shopify://shop_images/Affresco_Website_Black.jpg",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        },
+        "collection_item_KyJkTG": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "cinema",
+            "image": "shopify://shop_images/Vittoria_Black_Website.jpg",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_JbEwmJ",
+        "collection_item_bhTdtw",
+        "collection_item_KyJkTG"
+      ],
+      "name": "t:sections.categories-list.presets.name",
+      "settings": {
+        "subheading": "",
+        "heading": "Collections title",
+        "heading_size": "h1",
+        "button_label": "Learn More",
+        "button_link": "",
+        "button_style": "simple",
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_desc": false,
+        "collection_heading_size": "h2",
+        "collections_to_show": 4,
+        "margin_top": "m",
+        "margin_bottom": "m"
       }
     },
     "popular-products1": {
@@ -914,13 +915,13 @@
     }
   },
   "order": [
-    "media_banner_RWPK83",
     "media-banner-1",
     "popular-products",
     "media_banner_U7ez39",
     "media_banner_X7p6HA",
-    "media_banner_Wj63b9",
+    "media_banner_RWPK83",
     "media_banner_x6FF9Y",
+    "media_banner_Wj63b9",
     "media-banner-2",
     "categories_list_GLy99k",
     "popular-products1",
