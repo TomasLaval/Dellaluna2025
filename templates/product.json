@@ -22,10 +22,6 @@
           "type": "price",
           "settings": {}
         },
-        "inventory": {
-          "type": "inventory",
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -61,45 +57,51 @@
             "description": ""
           }
         },
+        "collapsible_tab_HFqVwK": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Details",
+            "content": "{{ product.metafields.custom.details | metafield_tag }}"
+          }
+        },
+        "collapsible_tab_zrBwzc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "content": "<p>{{ product.metafields.custom.dimensions | metafield_tag }}</p>"
+          }
+        },
+        "popup_rmj4DA": {
+          "type": "popup",
+          "settings": {
+            "label": "Delivery and Returns",
+            "text": "<h3>Here’s everything you need to know before you buy.</h3><p>From sizing tips and material details to shipping and return policies, this quick guide gives you the confidence to make the right choice. No surprises—just the facts that matter.</p><h3>Helpful details to guide your purchase.</h3><p>We’ve gathered the key information—so you can shop with clarity and confidence. Whether it’s product specs or delivery options, it’s all right here.</p>",
+            "text_2": "<h3>Need More Info?</h3><p>Get key details about this product—like size, fit, materials, or shipping—so you can shop with confidence.</p><h3>Product Details</h3><p>Everything you need to know—features, sizing, delivery, and more—all in one place.</p>",
+            "heading": "",
+            "img_text": "<p>Close-up view of the materials and craftsmanship.</p>"
+          }
+        },
         "floated_form": {
           "type": "floated_form",
           "settings": {
             "show_dynamic_checkout": false,
             "show_quantity": false
           }
-        },
-        "pickup_availability_MNbMke": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "complementary_MDe68y": {
-          "type": "complementary",
-          "settings": {
-            "heading": "You May Also Like",
-            "heading_size": "h3",
-            "products_limit": 6,
-            "image_ratio": "portrait",
-            "image_fit": "cover",
-            "show_vendor": false,
-            "show_collection": false,
-            "show_desc": false,
-            "columns_mobile": "2"
-          }
         }
       },
       "block_order": [
         "title",
         "price",
-        "inventory",
         "variant_picker",
         "buy_buttons",
         "description_J3BppF",
-        "floated_form",
-        "pickup_availability_MNbMke",
-        "complementary_MDe68y"
+        "collapsible_tab_HFqVwK",
+        "collapsible_tab_zrBwzc",
+        "popup_rmj4DA",
+        "floated_form"
       ],
       "settings": {
-        "gallery_type": "thumbs_aside",
+        "gallery_type": "custom",
         "desktop_alignment": "right",
         "mobile_alignment": "before",
         "slider_direction": "horizontal",
