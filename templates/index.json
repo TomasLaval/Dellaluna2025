@@ -468,11 +468,11 @@
     "categories_list_AfQVmR": {
       "type": "categories-list",
       "blocks": {
-        "collection_item_iycmk3": {
+        "collection_item_M4kFLJ": {
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/vesper_2.webp",
+            "image": "shopify://shop_images/VIrna_redjpg.jpg",
             "button_label": "Shop Collection",
             "button_link": "",
             "overlay_opacity": 0.2
@@ -498,11 +498,11 @@
             "overlay_opacity": 0.2
           }
         },
-        "collection_item_M4kFLJ": {
+        "collection_item_iycmk3": {
           "type": "collection_item",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/VIrna_redjpg.jpg",
+            "image": "shopify://shop_images/vesper_2.webp",
             "button_label": "Shop Collection",
             "button_link": "",
             "overlay_opacity": 0.2
@@ -510,10 +510,10 @@
         }
       },
       "block_order": [
-        "collection_item_iycmk3",
+        "collection_item_M4kFLJ",
         "collection_item_fFQxiq",
         "collection_item_twCAAX",
-        "collection_item_M4kFLJ"
+        "collection_item_iycmk3"
       ],
       "name": "t:sections.categories-list.presets.name",
       "settings": {
