@@ -184,6 +184,7 @@
       "shop": "Shop",
       "back": "Collection",
       "add_to_cart": "Add to Cart",
+      "pre_order": "Pre-Order",
       "on_sale": "Sale",
       "sku": "SKU",
       "choose_product_options": "Choose options for {{ product_name }}",

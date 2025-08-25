@@ -952,7 +952,14 @@
 															class="product-form__submit button button--tertiary focus-inset"
 															{% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
 														>
-															{%- if product.selected_or_first_available_variant.available -%}
+															{%- if product.selected_or_first_available_variant.inventory_quantity > 0 -%}
+																<span>
+																	{{ 'products.product.pre_order' | t }}
+																</span>
+																<div class="loading-overlay__spinner hidden">
+																	{%- render 'icon-loading' -%}	
+																</div>
+															{%- elsif product.selected_or_first_available_variant.available -%}
 																<span>
 																	{{ 'products.product.add_to_cart' | t }}
 																</span>
