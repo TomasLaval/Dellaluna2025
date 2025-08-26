@@ -12,7 +12,7 @@
   }
 }
 @media screen and (min-width: 990px) {
-  .popular-products__wrapper--3, .popular-products__wrapper--4, .popular-products__wrapper--5, .popular-products__wrapper--6 {
+  .popular-products__wrapper--3, .popular-products__wrapper--5, .popular-products__wrapper--6 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
