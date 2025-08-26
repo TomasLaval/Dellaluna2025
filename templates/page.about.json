@@ -8,59 +8,206 @@
  * ------------------------------------------------------------
  */
 {
-	"sections": {
-		"main": {
-			"type": "rich-text",
-			"settings": {
-				"alignment": "left",
-				"margin_top": "xs",
-				"margin_bottom": "xs"
-			},
-			"blocks": {
-				"heading": {
-					"type": "heading",
-					"settings": {
-						"heading": "Our Story",
-						"heading_size": "h2"
-					}
-				}
-			},
-			"block_order": ["heading"]
-		},
-		"banner": {
-			"type": "image-banner",
-			"settings": {
-				"heading": "",
-				"text_information": "",
-				"additional_text": "",
-				"button_label": "",
-				"button_label2": "",
-				"margin_bottom": "m"
-			}
-		},
-		"steps": {
-			"type": "steps",
-			"settings": {},
-			"blocks": {
-				"steps-item": {
-					"type": "steps-item",
-					"settings": {}
-				},
-				"steps-item1": {
-					"type": "steps-item",
-					"settings": {}
-				},
-				"steps-item2": {
-					"type": "steps-item",
-					"settings": {}
-				},
-				"steps-item3": {
-					"type": "steps-item",
-					"settings": {}
-				}
-			},
-			"block_order": ["steps-item", "steps-item1", "steps-item2", "steps-item3"]
-		}
-	},
-	"order": ["main", "banner", "steps"]
+  "sections": {
+    "banner": {
+      "type": "image-banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "",
+        "info_position": "inside",
+        "image": "shopify://shop_images/wide_website_homepage_dellaluna.jpg",
+        "image_ratio": "16/9",
+        "opacity_overlay": 0.2,
+        "heading": "",
+        "heading_size": "h1",
+        "text_information": "",
+        "text_align": "center",
+        "text_width": "full",
+        "additional_text": "",
+        "button_label": "",
+        "button_style": "tertiary",
+        "button_link": "",
+        "button_label2": "",
+        "button_style2": "tertiary",
+        "button_link2": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "image_with_text_9e6qQD": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "aspect_ratio": "medium",
+        "heading_position": "center",
+        "text_width": "medium",
+        "subheading": "",
+        "heading": "About",
+        "heading_size": "h1",
+        "text": "<p>Dellaluna is a love letter to Venice — where la <em>dolce vita</em> and the art of craftsmanship take form.</p><p>More than a brand, it was imagined as a world: one that captures the beauty, elegance, and quiet opulence that Venice exudes so effortlessly. A world where tradition isn’t preserved in glass, but made to live and move through modern life.</p><p>From the beginning, Dellaluna has been about creating objects with soul — not just handbags, but heirlooms of emotion and memory. Rooted in heritage, guided by instinct, and shaped by beauty, each piece speaks to a way of living: slower, deeper, and with intention.</p>",
+        "enable_animation": true,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "image": "shopify://shop_images/bellini.jpg",
+        "image_width": "large",
+        "height": "portrait",
+        "layout": "image_right",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_with_text_MYHqib": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "aspect_ratio": "medium",
+        "heading_position": "center",
+        "text_width": "medium",
+        "subheading": "",
+        "heading": "Our Materials",
+        "heading_size": "h1",
+        "text": "<p>At Dellaluna, our dedication to excellence begins with our materials. We use only the best quality, Italian materials, crafted by the finest artisans and historic producers in Veneto. We take pride in how we produce, creating leather goods that deliver high-impact happiness with as little impact on our planet as possible. Working with artisans in our back yard affords us a shorter supply chain and significantly lower carbon footprint, and while delivering products in small batches means our process is a little more “piano”, it means that we can do our part to maintain the natural abundance of our beloved Italy.</p>",
+        "enable_animation": true,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "image": "shopify://shop_images/materials.webp",
+        "image_width": "large",
+        "height": "square",
+        "layout": "image_left",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_with_text_UREwfT": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "aspect_ratio": "medium",
+        "heading_position": "center",
+        "text_width": "medium",
+        "subheading": "",
+        "heading": "Our Clients",
+        "heading_size": "h1",
+        "text": "<p>The individuals who breathe life into our creations, infusing them with their own personal style and flair to make each piece uniquely theirs.Spanning across the globe, they are tastemakers, art aficionados, and cultural enthusiasts, with a special love for Venice.They form a beautiful club of Dellaluna, sharing a passion for exquisite craftsmanship and timeless elegance.</p>",
+        "enable_animation": true,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "image": "shopify://shop_images/NAOMI.webp",
+        "image_width": "large",
+        "height": "portrait",
+        "layout": "image_right",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_with_text_7XRf9e": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "aspect_ratio": "medium",
+        "heading_position": "center",
+        "text_width": "medium",
+        "subheading": "",
+        "heading": "Palazzo Dellaluna",
+        "heading_size": "h1",
+        "text": "<p>Founded in Palazzo Dellaluna, a gold-marble palace dating back to the 12th century, just steps from Saint Mark’s Square and only a few doors down from the legendary Harry’s Bar, Dellaluna was born in a place where elegance and history converge. Once a residence for merchants journeying between East and West, the palazzo has long been a hub of culture, refinement, and worldly exchange. Known as the Palace of the Moon, its name reflects the poetic meeting point between the crescent moon of the East and the full moon of the West — a symbol of balance, mystery, and movement.</p>",
+        "enable_animation": true,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "image": "shopify://shop_images/vsm.jpg",
+        "image_width": "large",
+        "height": "square",
+        "layout": "image_left",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "image_with_text_XQDWxr": {
+      "type": "image-with-text",
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "aspect_ratio": "medium",
+        "heading_position": "center",
+        "text_width": "medium",
+        "subheading": "",
+        "heading": "Our Designer",
+        "heading_size": "h1",
+        "text": "<p>Silvia Paulon founded Dellaluna not as a business idea, but as a way to crystallize a feeling — to turn the emotion of Venice into something you could hold. The first piece wasn’t just a bag, but a fragment of a place, a memory made tangible. There was no marketing plan, no PR strategy. Everything went into the object: its soul, its symbolism, its detail. And maybe that was the secret. The right people found it — collectors, editors, connoisseurs. It appeared in the Louis Vuitton Guide, and quietly began to travel. Dellaluna is no longer just Silvia’s. It’s a world of its own, created for those who see beauty as a form of meaning.</p>",
+        "enable_animation": true,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "image": "shopify://shop_images/silvia.webp",
+        "image_width": "large",
+        "height": "portrait",
+        "layout": "image_right",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "steps": {
+      "type": "steps",
+      "blocks": {
+        "steps-item": {
+          "type": "steps-item",
+          "settings": {
+            "date": "2025",
+            "heading": "Here can be your story title",
+            "description": "<p>Use this space to highlight a significant milestone,</p><p>such as expansion, product launch, or industry recognition.</p>"
+          }
+        },
+        "steps-item1": {
+          "type": "steps-item",
+          "settings": {
+            "date": "2025",
+            "heading": "Here can be your story title",
+            "description": "<p>Use this space to highlight a significant milestone,</p><p>such as expansion, product launch, or industry recognition.</p>"
+          }
+        },
+        "steps-item2": {
+          "type": "steps-item",
+          "settings": {
+            "date": "2025",
+            "heading": "Here can be your story title",
+            "description": "<p>Use this space to highlight a significant milestone,</p><p>such as expansion, product launch, or industry recognition.</p>"
+          }
+        },
+        "steps-item3": {
+          "type": "steps-item",
+          "settings": {
+            "date": "2025",
+            "heading": "Here can be your story title",
+            "description": "<p>Use this space to highlight a significant milestone,</p><p>such as expansion, product launch, or industry recognition.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "steps-item",
+        "steps-item1",
+        "steps-item2",
+        "steps-item3"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_ratio": "portrait",
+        "heading_size": "h2",
+        "sticky": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "image_with_text_9e6qQD",
+    "image_with_text_MYHqib",
+    "image_with_text_UREwfT",
+    "image_with_text_7XRf9e",
+    "image_with_text_XQDWxr",
+    "steps"
+  ]
 }
