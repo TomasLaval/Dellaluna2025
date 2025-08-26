@@ -404,7 +404,7 @@
         "collection_item_JbEwmJ": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "vesper",
             "image": "shopify://shop_images/vesper_collection.jpg",
             "button_label": "Shop Collection",
             "button_link": "",
@@ -515,6 +515,7 @@
         "collection_item_twCAAX",
         "collection_item_iycmk3"
       ],
+      "disabled": true,
       "name": "t:sections.categories-list.presets.name",
       "settings": {
         "subheading": "",
