@@ -185,33 +185,33 @@
 
 								{% for block in section.blocks %}
 									{% if product_loop == block.settings.image_position and block.settings.image != blank %}
-										<li class='collection-product-promo-img media--{{ section.settings.image_ratio }} collection-product-promo-img {% if section.blocks[0].settings.heading != blank or section.blocks[0].settings.description != blank  %} collection-product-promo-img-promo {% endif %}'>
+										<li class='collection-product-promo-img media--{{ section.settings.image_ratio }} collection-product-promo-img {% if block.settings.heading != blank or block.settings.description != blank  %} collection-product-promo-img-promo {% endif %}'>
 											{{
-												section.blocks[0].settings.image
-												| image_url: width: section.blocks[0].settings.image.width
+												block.settings.image
+												| image_url: width: block.settings.image.width
 												| image_tag:
 													loading: 'lazy',
-													width: section.blocks[0].settings.image.width,
+													width: block.settings.image.width,
 													sizes: '100vw',
 													widths: '550, 750, 1100, 1500, 1780, 2000, 3000, 3840, 4200, 5000'
 											}}
-											{% if section.blocks[0].settings.heading != blank
-												or section.blocks[0].settings.description != blank
+											{% if block.settings.heading != blank
+												or block.settings.description != blank
 											%}
 												<div
 													class='collection-product-promo__overlay'
-													style='opacity: {{ section.blocks[0].settings.overlay_opacity }}'
+													style='opacity: {{ block.settings.overlay_opacity }}'
 												></div>
-												<div class='collection-product-promo-text color-{{ section.blocks[0].settings.color_scheme }}'>
-													{%- if section.blocks[0].settings.heading != blank -%}
-														<h2 class='section-heading__heading {{ section.blocks[0].settings.heading_size }}'>
-															{{ section.blocks[0].settings.heading }}
+												<div class='collection-product-promo-text color-{{ block.settings.color_scheme }}'>
+													{%- if block.settings.heading != blank -%}
+														<h2 class='section-heading__heading {{ block.settings.heading_size }}'>
+															{{ block.settings.heading }}
 														</h2>
 													{%- endif -%}
-													{%- if section.blocks[0].settings.description != blank
+													{%- if block.settings.description != blank
 													-%}
 														<p class='section-heading__description'>
-															{{ section.blocks[0].settings.description }}
+															{{ block.settings.description }}
 														</p>
 													{%- endif -%}
 												</div>
