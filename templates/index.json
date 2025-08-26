@@ -639,7 +639,7 @@
         "popup_content": "",
         "popup_image_size": "landscape",
         "popup_button_label": "Shop Collection",
-        "popup_button_link": "",
+        "popup_button_link": "shopify://pages/contact",
         "popup_button_style": "tertiary",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
