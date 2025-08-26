@@ -739,6 +739,7 @@
       "blocks": {
         "media_slide_tkpLhQ": {
           "type": "media_slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "image": "shopify://shop_images/Screenshot_2025-05-04_at_22.13.14.png",
@@ -748,13 +749,13 @@
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
-            "heading": "The Go-To Collection",
+            "heading": "Fine Jewelry",
             "heading_size": "h1",
-            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
+            "description": "",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "Discover Collection",
-            "button_link": "",
+            "button_link": "shopify://collections/fine-jewlery",
             "button_style": "tertiary",
             "button_label2": "",
             "button_link2": "",
@@ -896,12 +897,12 @@
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
-            "heading": "",
+            "heading": "The Go-To Collection",
             "heading_size": "h1",
-            "description": "",
+            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
             "position_content": "bottom",
             "align_content": "left",
-            "button_label": "",
+            "button_label": "Discover Collection",
             "button_link": "",
             "button_style": "tertiary",
             "button_label2": "",
@@ -914,13 +915,14 @@
       "block_order": [
         "media_slide_r6Leqr"
       ],
+      "disabled": true,
       "settings": {
         "header_overlay": false,
         "sticky": "sticky-none",
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
-        "aspect_ratio_mobile": "3/2",
+        "aspect_ratio_mobile": "full",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -1004,11 +1006,11 @@
     "categories_list_GLy99k",
     "categories_list_AfQVmR",
     "popular-products1",
-    "media_banner_WY3Rqi",
     "media_banner_zBcVN7",
     "banner_with_popup_PQ8VcF",
     "featured-products",
     "media_banner_UptrDR",
+    "media_banner_WY3Rqi",
     "multicolumn",
     "media_banner_kV9Qwp",
     "product-slider"
