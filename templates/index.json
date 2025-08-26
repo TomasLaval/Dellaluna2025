@@ -921,7 +921,7 @@
         "layout": "overlay",
         "gap": false,
         "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
+        "aspect_ratio_mobile": "3/2",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
