@@ -14,38 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "subheading": "Shop",
-            "menu": "footer",
-            "default_open": false
-          }
-        },
-        "footer-2": {
-          "type": "link_list",
-          "settings": {
-            "subheading": "Company",
-            "menu": "footer",
-            "default_open": false
-          }
-        },
-        "footer-3": {
-          "type": "link_list",
-          "settings": {
-            "subheading": "Services",
-            "menu": "footer",
-            "default_open": false
-          }
-        },
-        "footer-4": {
-          "type": "link_list",
-          "settings": {
-            "subheading": "Socials",
-            "menu": "footer",
-            "default_open": false
-          }
-        },
         "footer-5": {
           "type": "link_list",
           "settings": {
@@ -56,10 +24,6 @@
         }
       },
       "block_order": [
-        "footer-1",
-        "footer-2",
-        "footer-3",
-        "footer-4",
         "footer-5"
       ],
       "settings": {
