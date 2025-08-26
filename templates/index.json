@@ -173,7 +173,7 @@
             "align_content": "left",
             "button_label": "Shop now",
             "button_link": "shopify://collections/handbags",
-            "button_style": "tertiary",
+            "button_style": "primary",
             "button_label2": "",
             "button_link2": "",
             "button_style2": "secondary",
