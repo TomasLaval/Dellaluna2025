@@ -75,10 +75,10 @@
           "type": "popup",
           "settings": {
             "label": "Delivery and Returns",
-            "text": "<h3>Here’s everything you need to know before you buy.</h3><p>From sizing tips and material details to shipping and return policies, this quick guide gives you the confidence to make the right choice. No surprises—just the facts that matter.</p><h3>Helpful details to guide your purchase.</h3><p>We’ve gathered the key information—so you can shop with clarity and confidence. Whether it’s product specs or delivery options, it’s all right here.</p>",
-            "text_2": "<h3>Need More Info?</h3><p>Get key details about this product—like size, fit, materials, or shipping—so you can shop with confidence.</p><h3>Product Details</h3><p>Everything you need to know—features, sizing, delivery, and more—all in one place.</p>",
+            "text": "<p>- Delivery within 5-7 working days</p><p>- Free shipping</p><p>- Free returns within 14 days for every order</p>",
+            "text_2": "",
             "heading": "",
-            "img_text": "<p>Close-up view of the materials and craftsmanship.</p>"
+            "img_text": ""
           }
         },
         "floated_form": {

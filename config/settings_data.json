@@ -29,6 +29,7 @@
     "badge_soldout_text_color": "#000000",
     "type_color_swatch": "custom",
     "swatch_type": "variant_image",
+    "favicon": "shopify://shop_images/favicon-dellaluna.webp",
     "quickview_show": false,
     "show_collection_card": true,
     "enable_styles": false,
