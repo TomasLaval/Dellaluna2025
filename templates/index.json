@@ -897,12 +897,12 @@
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
-            "heading": "The Go-To Collection",
+            "heading": "",
             "heading_size": "h1",
-            "description": "Reliable, stylish, and effortlessly wearable clothing for any occasion, any season.",
+            "description": "",
             "position_content": "bottom",
             "align_content": "left",
-            "button_label": "Discover Collection",
+            "button_label": "",
             "button_link": "",
             "button_style": "tertiary",
             "button_label2": "",
@@ -915,7 +915,6 @@
       "block_order": [
         "media_slide_r6Leqr"
       ],
-      "disabled": true,
       "settings": {
         "header_overlay": false,
         "sticky": "sticky-none",
