@@ -17,14 +17,32 @@
         "footer-5": {
           "type": "link_list",
           "settings": {
-            "subheading": "Legal",
+            "subheading": "Site",
             "menu": "footer",
+            "default_open": false
+          }
+        },
+        "link_list_9JrVT4": {
+          "type": "link_list",
+          "settings": {
+            "subheading": "Dellaluna",
+            "menu": "about-dellaluna",
+            "default_open": false
+          }
+        },
+        "link_list_NwibMz": {
+          "type": "link_list",
+          "settings": {
+            "subheading": "Legal",
+            "menu": "legal",
             "default_open": false
           }
         }
       },
       "block_order": [
-        "footer-5"
+        "footer-5",
+        "link_list_9JrVT4",
+        "link_list_NwibMz"
       ],
       "settings": {
         "color_scheme": "background-1",
