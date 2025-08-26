@@ -181,7 +181,9 @@
       "blocks": {
         "image": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/IMG_5463.jpg"
+          }
         }
       },
       "block_order": [
