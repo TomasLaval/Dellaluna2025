@@ -443,6 +443,7 @@
         },
         "collection_item_e8NHih": {
           "type": "collection_item",
+          "disabled": true,
           "settings": {
             "collection": "fine-jewlery",
             "image": "shopify://shop_images/Roman_clutch_website_1.jpg",
@@ -471,7 +472,7 @@
         "image_fit": "cover",
         "show_desc": false,
         "collection_heading_size": "h3",
-        "collections_to_show": 5,
+        "collections_to_show": 4,
         "margin_top": "xs",
         "margin_bottom": "xs"
       }
