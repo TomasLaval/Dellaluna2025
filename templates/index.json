@@ -440,13 +440,24 @@
             "button_link": "",
             "overlay_opacity": 0.2
           }
+        },
+        "collection_item_e8NHih": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "fine-jewlery",
+            "image": "shopify://shop_images/Roman_clutch_website_1.jpg",
+            "button_label": "Shop Collection",
+            "button_link": "",
+            "overlay_opacity": 0.2
+          }
         }
       },
       "block_order": [
         "collection_item_bhTdtw",
         "collection_item_KyJkTG",
         "collection_item_JbEwmJ",
-        "collection_item_rzVpXX"
+        "collection_item_rzVpXX",
+        "collection_item_e8NHih"
       ],
       "name": "t:sections.categories-list.presets.name",
       "settings": {
@@ -460,7 +471,7 @@
         "image_fit": "cover",
         "show_desc": false,
         "collection_heading_size": "h3",
-        "collections_to_show": 4,
+        "collections_to_show": 5,
         "margin_top": "xs",
         "margin_bottom": "xs"
       }
