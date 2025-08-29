@@ -451,7 +451,7 @@
       "name": "t:sections.categories-list.presets.name",
       "settings": {
         "subheading": "",
-        "heading": "Collections title",
+        "heading": "",
         "heading_size": "h1",
         "button_label": "Learn More",
         "button_link": "",
