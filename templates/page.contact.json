@@ -9,27 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Customer Care",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "alignment": "center",
-        "width": "small",
-        "margin_top": "xs",
-        "margin_bottom": "xs"
-      }
-    },
     "contact-form": {
       "type": "contact-form",
       "blocks": {
@@ -66,7 +45,7 @@
         "additional_text": "Submit your request and we'll respond soon.",
         "button_style": "secondary",
         "margin_top": "m",
-        "margin_bottom": "m"
+        "margin_bottom": "l"
       }
     },
     "collapsible-content": {
@@ -162,7 +141,6 @@
     }
   },
   "order": [
-    "main",
     "contact-form",
     "collapsible-content"
   ]
