@@ -35,16 +35,27 @@
       "blocks": {
         "contact-description-2": {
           "type": "contact-description",
+          "disabled": true,
           "settings": {
             "subheading": "",
-            "heading": "We’d Love to Hear From You",
+            "heading": "Call our Customer Service",
+            "heading_size": "h3",
+            "description": "<p>Have a question, comment, or just want to say hello? Fill out the form and we’ll get back to you as soon as possible.</p>"
+          }
+        },
+        "contact_description_9KUjX9": {
+          "type": "contact-description",
+          "settings": {
+            "subheading": "",
+            "heading": "Send us a message",
             "heading_size": "h3",
             "description": "<p>Have a question, comment, or just want to say hello? Fill out the form and we’ll get back to you as soon as possible.</p>"
           }
         }
       },
       "block_order": [
-        "contact-description-2"
+        "contact-description-2",
+        "contact_description_9KUjX9"
       ],
       "settings": {
         "position": "right",
@@ -65,22 +76,76 @@
           "type": "accordion",
           "settings": {
             "default_open": false,
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>Here can be a brief but clear response to the question, giving customers a quick answer without unnecessary details.</p>"
+            "question": "What materials and craftsmanship techniques define Dellaluna products?",
+            "answer": "<p>Dellaluna pieces are made from the finest Italian leathers and noble materials. Skilled Venetian artisans combine traditional hand-stitching and finishing techniques with contemporary design, creating timeless, high-quality creations.</p>"
           }
         },
         "accordion-2": {
           "type": "accordion",
           "settings": {
             "default_open": false,
-            "question": "Here can be a commonly asked question about your product or service.",
-            "answer": "<p>Here can be a brief but clear response to the question, giving customers a quick answer without unnecessary details.</p>"
+            "question": "Where are Dellaluna pieces made?",
+            "answer": "<p>All items are handcrafted in Italy, in Dellaluna’s ateliers, reflecting the city’s rich artisanal heritage.</p>"
+          }
+        },
+        "accordion_ekXdnK": {
+          "type": "accordion",
+          "settings": {
+            "default_open": false,
+            "question": "Do you ship internationally?",
+            "answer": "<p>Yes, we ship worldwide </p>"
+          }
+        },
+        "accordion_UEG4xF": {
+          "type": "accordion",
+          "settings": {
+            "default_open": false,
+            "question": "What are the delivery times and costs?",
+            "answer": "<p>Italy & EU: 2–5 business days. International: 5 business days.<br/><br/>Shipping is free of charge for all orders. </p>"
+          }
+        },
+        "accordion_zEGtjY": {
+          "type": "accordion",
+          "settings": {
+            "default_open": false,
+            "question": "Which payment methods are accepted?",
+            "answer": "<p>We accept major credit cards (Visa, Mastercard, American Express) and secure digital payments (PayPal, Apple Pay, Google Pay).</p>"
+          }
+        },
+        "accordion_8YEWyP": {
+          "type": "accordion",
+          "settings": {
+            "default_open": false,
+            "question": "Do you offer customization?",
+            "answer": "<p>Yes, we provide a bespoke service on select items. Please contact our customer care team to discuss personalization options.--- <a href=\"mailto:info@dellaluna.com\">info@dellaluna.com</a> </p>"
+          }
+        },
+        "accordion_ydcPQX": {
+          "type": "accordion",
+          "settings": {
+            "default_open": false,
+            "question": "Do you offer restoration or aftercare services?",
+            "answer": "<p>Yes. Our maison offers lifetime guarantee with restoration services to ensure your Dellaluna creation remains as timeless as the day it was acquired. Our artisans will carefully restore or refresh your piece whenever needed.</p>"
+          }
+        },
+        "accordion_Q3gGUf": {
+          "type": "accordion",
+          "settings": {
+            "default_open": false,
+            "question": "How can I contact Dellaluna?",
+            "answer": "<p>Our concierge team is available to assist you by email at <strong>info@dellaluna.com</strong> or through our contact form. Personalized consultations, private appointments, and virtual styling sessions are also available upon request.</p>"
           }
         }
       },
       "block_order": [
         "accordion-1",
-        "accordion-2"
+        "accordion-2",
+        "accordion_ekXdnK",
+        "accordion_UEG4xF",
+        "accordion_zEGtjY",
+        "accordion_8YEWyP",
+        "accordion_ydcPQX",
+        "accordion_Q3gGUf"
       ],
       "settings": {
         "aspect_ratio": "medium",
