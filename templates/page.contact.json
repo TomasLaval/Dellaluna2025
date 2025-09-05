@@ -33,42 +33,49 @@
     "contact-form": {
       "type": "contact-form",
       "blocks": {
-        "contact-description": {
-          "type": "contact-description",
-          "settings": {}
-        },
-        "contact-description-1": {
-          "type": "contact-description",
-          "settings": {}
-        },
         "contact-description-2": {
           "type": "contact-description",
-          "settings": {}
+          "settings": {
+            "subheading": "",
+            "heading": "We’d Love to Hear From You",
+            "heading_size": "h3",
+            "description": "<p>Have a question, comment, or just want to say hello? Fill out the form and we’ll get back to you as soon as possible.</p>"
+          }
         }
       },
       "block_order": [
-        "contact-description",
-        "contact-description-1",
         "contact-description-2"
       ],
       "settings": {
-        "margin_bottom": "no-indent"
+        "position": "right",
+        "enable_form": true,
+        "heading": "Get in Touch",
+        "heading_size": "h2",
+        "text": "",
+        "additional_text": "Submit your request and we'll respond soon.",
+        "button_style": "secondary",
+        "margin_top": "m",
+        "margin_bottom": "m"
       }
     },
     "collapsible-content": {
       "type": "collapsible-content",
       "blocks": {
-        "contact-description": {
-          "type": "accordion",
-          "settings": {}
-        },
         "accordion-1": {
           "type": "accordion",
-          "settings": {}
+          "settings": {
+            "default_open": false,
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>Here can be a brief but clear response to the question, giving customers a quick answer without unnecessary details.</p>"
+          }
         },
         "accordion-2": {
           "type": "accordion",
-          "settings": {}
+          "settings": {
+            "default_open": false,
+            "question": "Here can be a commonly asked question about your product or service.",
+            "answer": "<p>Here can be a brief but clear response to the question, giving customers a quick answer without unnecessary details.</p>"
+          }
         }
       },
       "block_order": [
@@ -76,9 +83,16 @@
         "accordion-2"
       ],
       "settings": {
+        "aspect_ratio": "medium",
         "heading": "FAQs",
         "heading_size": "h2",
-        "button_label": ""
+        "enable_animation": true,
+        "slideshow_speed": 4,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
       }
     }
   },

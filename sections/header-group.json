@@ -13,38 +13,6 @@
   "sections": {
     "header": {
       "type": "header",
-      "blocks": {
-        "mega_menu_kwnHnU": {
-          "type": "mega_menu",
-          "settings": {
-            "mega_menu_trigger": "Shop",
-            "small_menu": "shop-megamenu",
-            "mega_menu_description": "Quick access to our top sections.",
-            "mega_menu_button_label": "Here can be a promo button",
-            "mega_menu_button_link": "",
-            "mega_menu_button_style": "tertiary",
-            "mega_menu_promo_1_trigger": "",
-            "heading_1": "Here can be a main category",
-            "image_1": "shopify://shop_images/IMG_5463.jpg",
-            "button_link_1": "",
-            "mega_menu_promo_2_trigger": "",
-            "heading_2": "Use this for a product section",
-            "button_link_2": "",
-            "mega_menu_promo_3_trigger": "",
-            "heading_3": "This is where a key link goes",
-            "button_link_3": "",
-            "mega_menu_promo_4_trigger": "",
-            "heading_4": "Here can be a main category",
-            "button_link_4": "",
-            "mega_menu_promo_5_trigger": "",
-            "heading_5": "Use this for a product section",
-            "button_link_5": ""
-          }
-        }
-      },
-      "block_order": [
-        "mega_menu_kwnHnU"
-      ],
       "settings": {
         "enable_border": false,
         "header_type": "center-logo",
