@@ -12,16 +12,6 @@
     "contact-form": {
       "type": "contact-form",
       "blocks": {
-        "contact-description-2": {
-          "type": "contact-description",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "heading": "Call our Customer Service",
-            "heading_size": "h3",
-            "description": "<p>Have a question, comment, or just want to say hello? Fill out the form and we’ll get back to you as soon as possible.</p>"
-          }
-        },
         "contact_description_9KUjX9": {
           "type": "contact-description",
           "settings": {
@@ -30,11 +20,20 @@
             "heading_size": "h3",
             "description": "<p>Have a question, comment, or just want to say hello? Fill out the form and we’ll get back to you as soon as possible.</p>"
           }
+        },
+        "contact-description-2": {
+          "type": "contact-description",
+          "settings": {
+            "subheading": "",
+            "heading": "Call our Customer Service",
+            "heading_size": "h3",
+            "description": "<p>Everyday from 10.30h to 18.30h</p><p>+39 338 435 7086</p>"
+          }
         }
       },
       "block_order": [
-        "contact-description-2",
-        "contact_description_9KUjX9"
+        "contact_description_9KUjX9",
+        "contact-description-2"
       ],
       "settings": {
         "position": "right",
