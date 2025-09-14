@@ -454,3 +454,8 @@ predictive-search[loading] .predictive-search__results-list:first-child {
 .predictive-search__text {
   color: rgb(var(--color-foreground-secondary));
 }
+
+
+.predictive-search__list-item .card-horizontal__image {
+  aspect-ratio: 1;
+}

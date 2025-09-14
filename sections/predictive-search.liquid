@@ -68,13 +68,14 @@
                       role="option"
                       aria-selected="false"
                     >
-                      <a
+                      {% comment %}<a
                         href="{{ product.url | default: '#' }}"
                         class="full-unstyled-link search__categories-link"
                         aria-label="{{ 'accessibility.product_link' | t }}"
                       >
                         {{- product.title -}}
-                      </a>
+                      </a>{% endcomment %}
+                      {% render 'product-card-horizontal', product_card_product: product, show_vendor: false  %}
                     </li>
                   {%- endfor -%}
                 {%- endif -%}
