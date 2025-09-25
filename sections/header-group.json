@@ -13,6 +13,38 @@
   "sections": {
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_hpYUE6": {
+          "type": "mega_menu",
+          "settings": {
+            "mega_menu_trigger": "About",
+            "small_menu": "",
+            "mega_menu_description": "",
+            "mega_menu_button_label": "",
+            "mega_menu_button_link": "",
+            "mega_menu_button_style": "tertiary",
+            "mega_menu_promo_1_trigger": "",
+            "heading_1": "",
+            "image_1": "shopify://shop_images/5F7A4676-500x750.jpg",
+            "button_link_1": "",
+            "mega_menu_promo_2_trigger": "",
+            "heading_2": "Use this for a product section",
+            "button_link_2": "",
+            "mega_menu_promo_3_trigger": "",
+            "heading_3": "This is where a key link goes",
+            "button_link_3": "",
+            "mega_menu_promo_4_trigger": "",
+            "heading_4": "Here can be a main category",
+            "button_link_4": "",
+            "mega_menu_promo_5_trigger": "",
+            "heading_5": "Use this for a product section",
+            "button_link_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_hpYUE6"
+      ],
       "settings": {
         "enable_border": false,
         "header_type": "center-logo",
