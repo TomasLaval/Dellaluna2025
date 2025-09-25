@@ -19,14 +19,18 @@
             "blog_show_excerpt": true,
             "blog_show_author": true,
             "blog_show_date": true,
-            "image_height": "large"
+            "image_height": "adapt"
           }
         },
         "content": {
           "type": "content",
           "settings": {
             "blog_show_author": true,
+            "blog_show_tags": true,
             "blog_show_date": true,
+            "show_share": true,
+            "show_social_icons": false,
+            "share_label": "Share",
             "show_share_facebook": true,
             "show_share_twitter": true,
             "show_share_pinterest": true,
@@ -39,8 +43,10 @@
         "content"
       ],
       "settings": {
-        "header_variant": "row",
-        "margin_top": "m"
+        "header_variant": "column",
+        "previous_next_links": true,
+        "margin_top": "m",
+        "margin_bottom": "m"
       }
     }
   },
