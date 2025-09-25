@@ -43,7 +43,7 @@
         "content"
       ],
       "settings": {
-        "header_variant": "column",
+        "header_variant": "row",
         "previous_next_links": true,
         "margin_top": "m",
         "margin_bottom": "m"
