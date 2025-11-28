@@ -37,17 +37,17 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
+            "show_dynamic_checkout": true,
             "show_quantity": false,
             "show_gift_card_recipient": false,
             "notification_modal": false,
             "modal_button_label": "Notify Me",
             "heading": "Notification",
-            "description": "The product is unfortunately out of stock. Please contact us to let us know when it is available.",
-            "button_label": "Customer Care",
+            "description": "",
+            "button_label": "",
             "button_link": "",
-            "description_2": "We suggest you check out similar products, maybe you will find something suitable for you.",
-            "button_label_2": "View Similar Products",
+            "description_2": "",
+            "button_label_2": "",
             "button_link_2": ""
           }
         },
