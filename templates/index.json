@@ -133,6 +133,49 @@
         "margin_bottom": "xs"
       }
     },
+    "media_banner_qHe8nV": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_yEPP4R": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/IMG_5816-2_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "For the love of Gold",
+            "heading_size": "h1",
+            "description": "Treasures made to be held, coated in 24k gold, created in limited numbers.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Discover",
+            "button_link": "shopify://collections/jewelry-clutches",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_yEPP4R"
+      ],
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
     "media_banner_U7ez39": {
       "type": "media-banner",
       "blocks": {
@@ -343,49 +386,6 @@
         "button_label": "",
         "button_link": "",
         "button_style": "simple",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
-    "media_banner_qHe8nV": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_yEPP4R": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/IMG_5816-2_copy.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": false,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "For the love of Gold",
-            "heading_size": "h1",
-            "description": "Treasures made to be held, coated in 24k gold, created in limited numbers.",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "Discover",
-            "button_link": "shopify://collections/jewelry-clutches",
-            "button_style": "tertiary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_yEPP4R"
-      ],
-      "settings": {
-        "header_overlay": true,
-        "sticky": "sticky-none",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
@@ -1010,11 +1010,11 @@
   "order": [
     "media_banner_RWPK83",
     "categories_list_GLy99k",
+    "media_banner_qHe8nV",
     "media_banner_U7ez39",
     "media-banner-1",
     "media_banner_X7p6HA",
     "popular-products",
-    "media_banner_qHe8nV",
     "media_banner_Wj63b9",
     "media-banner-2",
     "categories_list_AfQVmR",
