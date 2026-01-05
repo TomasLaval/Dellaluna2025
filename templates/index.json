@@ -176,50 +176,6 @@
         "margin_bottom": "no-indent"
       }
     },
-    "media_banner_U7ez39": {
-      "type": "media-banner",
-      "blocks": {
-        "media_slide_9UKBDN": {
-          "type": "media_slide",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/IMG_4245_copy.jpg",
-            "overlay_opacity": 0,
-            "enable_hover": false,
-            "show_video": false,
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description_video": "",
-            "subheading": "",
-            "heading": "For the love of Cinema",
-            "heading_size": "h1",
-            "description": "Refinement and glamour unite in a vibrant collection",
-            "position_content": "bottom",
-            "align_content": "left",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/cinema",
-            "button_style": "tertiary",
-            "button_label2": "",
-            "button_link2": "",
-            "button_style2": "secondary",
-            "full_link": true
-          }
-        }
-      },
-      "block_order": [
-        "media_slide_9UKBDN"
-      ],
-      "disabled": true,
-      "settings": {
-        "header_overlay": true,
-        "sticky": "sticky-none",
-        "layout": "overlay",
-        "gap": false,
-        "aspect_ratio": "full",
-        "aspect_ratio_mobile": "full",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent"
-      }
-    },
     "media-banner-1": {
       "type": "media-banner",
       "blocks": {
@@ -277,6 +233,50 @@
       "block_order": [
         "media_slide",
         "media_slide1"
+      ],
+      "disabled": true,
+      "settings": {
+        "header_overlay": true,
+        "sticky": "sticky-none",
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "media_banner_U7ez39": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide_9UKBDN": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/IMG_4245_copy.jpg",
+            "overlay_opacity": 0,
+            "enable_hover": false,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "",
+            "heading": "For the love of Cinema",
+            "heading_size": "h1",
+            "description": "Refinement and glamour unite in a vibrant collection",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/cinema",
+            "button_style": "tertiary",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide_9UKBDN"
       ],
       "disabled": true,
       "settings": {
@@ -1011,10 +1011,10 @@
     "media_banner_RWPK83",
     "categories_list_GLy99k",
     "media_banner_qHe8nV",
-    "media_banner_U7ez39",
-    "media-banner-1",
-    "media_banner_X7p6HA",
     "popular-products",
+    "media-banner-1",
+    "media_banner_U7ez39",
+    "media_banner_X7p6HA",
     "media_banner_Wj63b9",
     "media-banner-2",
     "categories_list_AfQVmR",
